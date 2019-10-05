@@ -5,7 +5,7 @@ import React, { Component } from "react";
 import Header from "./components/Header";
 import Router from "./components/Router";
 import Status from "./components/Status";
-import Blink from 'react-blink-text';
+import Mentor from "./components/Mentor";
 
 class App extends Component {
   render() {
@@ -14,6 +14,7 @@ class App extends Component {
         <Header />
         <Router />
         {/* <Status /> */}
+        <Mentor />
       </div>
     );
   }
