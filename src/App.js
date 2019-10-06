@@ -9,13 +9,25 @@ import Status from "./components/Status";
 import Mentor from "./components/Mentor";
 
 class App extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+        search: '',
+    }
+  }
+
+  search = (val) => {
+    this.setState({ search: val });
+  }
+
   render() {
     return (
       <div className="App">
-        <Header />
+        <Header handleSearch={this.search} />
         <Router />
         {/* <Status /> */}
-        <Mentor />
+        <Mentor search={this.state.search} />
       </div>
     );
   }
