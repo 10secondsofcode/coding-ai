@@ -1,9 +1,6 @@
 # Coding-AI
 Coding-AI helps to find a mentor related your technologies stack.
 
-Website
-https://10secondsofcode.com
-
 # Welcome to HacktoberFest 2019!
 Follow these steps to make your first pull request-
 
