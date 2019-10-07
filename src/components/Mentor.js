@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import data from "../response/response";
 import {Link} from 'react-router-dom';
 import MentorList from "../components/MentorList";
+import Filter from '../components/Filter';
 
 class Mentor extends Component {
 
@@ -22,7 +23,9 @@ class Mentor extends Component {
         console.log("sdsss==>" + JSON.stringify(data));
 
         this.setState({
-            Product: data
+            Product: data,
+            tech: null,
+            country: null
         });
 
         /*fetch(Data)
@@ -43,14 +46,24 @@ class Mentor extends Component {
         ) : this.state.Product;
     }
 
+    filter = tech => {
+        const Product = data.filter(mentor => {
+            const lowerCased = mentor.technology.split(',').map(t => t.trim().toLowerCase());
+            return lowerCased.includes(tech);
+        });
+        this.setState({
+            Product
+        });
+    }
 
     render() {
         return (
             <div className="main thememain-white">
                 <div className="container content-main">
+                    <Filter data={ data } filter ={ this.filter } />
                     <br />
                     <div className="row">
-                        {this.getSearchedProducts().map((data) => {
+                        {this.state.Product.map((data) => {
                             return <MentorList key={data.id} data={data} />
                         })}
                     </div>
