@@ -228,3 +228,11 @@ body {
 .whiteColor{
     color: white !important;
 }
+
+.loadMore button {
+    background: linear-gradient(165deg, #6e60cc, #484389);
+    color: white;
+    width: 60vh;
+    padding: 20px;
+    margin: 20px auto;
+}
