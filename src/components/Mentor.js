@@ -36,6 +36,13 @@ class Mentor extends Component {
         });*/
     }
 
+    getSearchedProducts() {
+        const { search } = this.props;
+        return search ? this.state.Product.filter(
+            (data) => data.name.toLowerCase().indexOf(search.toLowerCase()) !== -1
+        ) : this.state.Product;
+    }
+
 
     render() {
         return (
@@ -43,7 +50,7 @@ class Mentor extends Component {
                 <div className="container content-main">
                     <br />
                     <div className="row">
-                        {this.state.Product.map((data) => {
+                        {this.getSearchedProducts().map((data) => {
                             return <MentorList key={data.id} data={data} />
                         })}
                     </div>
