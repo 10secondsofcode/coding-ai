@@ -24,8 +24,10 @@ class Mentor extends Component {
 
         this.setState({
             Product: data,
-            tech: null,
-            country: null
+            filter: {
+                technology: null,
+                country: null
+            }
         });
 
         /*fetch(Data)
@@ -46,11 +48,29 @@ class Mentor extends Component {
         ) : this.state.Product;
     }
 
-    filter = tech => {
-        const Product = data.filter(mentor => {
-            const lowerCased = mentor.technology.split(',').map(t => t.trim().toLowerCase());
-            return lowerCased.includes(tech);
-        });
+    setFilter = e => {
+        const { name, value } = e.target;
+        this.setState(state => {
+            const newState = {...state}
+            newState.filter[name] = value;
+            return newState;
+        }, this.filter);
+    }
+
+    filter = () => {
+        const {technology, country} = this.state.filter;
+        let Product = null
+        if(technology) {
+            Product = data.filter(mentor => {
+                const lowerCased = mentor.technology.split(',').map(t => t.trim().toLowerCase());
+                return lowerCased.includes(technology);
+            });
+        }
+
+        if(country) {
+            Product = Product.filter(mentor => mentor.country.toLowerCase() === country.toLowerCase());
+        }
+
         this.setState({
             Product
         });
@@ -60,12 +80,18 @@ class Mentor extends Component {
         return (
             <div className="main thememain-white">
                 <div className="container content-main">
-                    <Filter data={ data } filter ={ this.filter } />
                     <br />
                     <div className="row">
-                        {this.state.Product.map((data) => {
-                            return <MentorList key={data.id} data={data} />
-                        })}
+                        <div className="col-md-4">
+                            <Filter data={ data } setFilter = { this.setFilter } />
+                        </div>
+                        <div className="col-md-8">
+                            <div className="row">
+                                {this.state.Product.map((data) => {
+                                    return <MentorList key={data.id} data={data} />
+                                })}
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
