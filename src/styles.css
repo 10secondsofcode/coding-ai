@@ -115,7 +115,6 @@ body {
 
 .card .content-card {
 	padding: 20px;
-	margin-bottom: 20px;
 }
 
 .card h3 {
@@ -147,9 +146,8 @@ body {
 .card .bottom-info {
 	font-size: 14px;
 	width: 100%;
-	position: absolute;
-	bottom: 0px;
-	padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .productList{
@@ -235,4 +233,26 @@ body {
     width: 60vh;
     padding: 20px;
     margin: 20px auto;
+}
+
+.heart-container {
+    cursor: pointer;
+    display: flex;
+}
+
+.heart-container:hover {
+    color: red;
+}
+
+.heart {
+    font-size: 1rem;
+    margin-right: 5px;
+}
+
+.like-count {
+    font-size: 1rem;
+}
+
+.like-count:hover {
+    color: red;
 }
