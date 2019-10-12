@@ -10,7 +10,7 @@ class Mentor extends Component {
         super(props);
         this.state = {
             Product: [],
-            showProducts: 10,
+            showProducts: 9,
             isLoading: false
         }
     }
