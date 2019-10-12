@@ -7,12 +7,22 @@ class Header extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            username: 'Hi!'
+            username: 'Hi!',
+            search: '',
         }
     }
 
     user = (val) => {
         this.setState({ username: val });
+    }
+
+    search = (event) => {
+        this.setState({ search: event.target.value });
+    }
+
+    submit = (event) => {
+        event.preventDefault();
+        this.props.handleSearch(this.state.search);
     }
 
     render() {
@@ -42,8 +52,8 @@ class Header extends Component {
                                     <a className="nav-link disabled" href="#" title="About">About</a>
                                 </li>
                             </ul>
-                            <form className="form-inline my-2 my-lg-0">
-                                <input className="form-control mr-sm-2" type="search" placeholder="Search" />
+                            <form className="form-inline my-2 my-lg-0" onSubmit={this.submit}>
+                                <input className="form-control mr-sm-2" type="search" placeholder="Search" onChange={this.search} />
                                 <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                             </form>
                             <Link to="/login">

@@ -26,7 +26,7 @@ body {
     }
     to {
     transform: rotate(360deg);
-    }   
+    }
 }
 
 .thememain-header {
@@ -38,7 +38,7 @@ body {
     height: 400px;
 }
 
-.login{    
+.login{
     margin-right: 10px;
     background-color: none !important;
 }
@@ -58,8 +58,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     height: 100px;
-    width: 100px;    
-    border-radius: 50%;   
+    width: 100px;
+    border-radius: 50%;
     margin-bottom: 10px;
 }
 
@@ -76,7 +76,7 @@ body {
 }
 
 .text-center{
-    display: block;    
+    display: block;
 }
 
 .modal-content{
@@ -85,18 +85,75 @@ body {
 
 .ErrorMessage{
     color: rgb(197, 0, 0);
-      font : bold;    
-      margin-bottom: 5%;  
+      font : bold;
+      margin-bottom: 5%;
       text-align: center;
 }
 
-.userName{   
-   text-align: center;   
+.userName{
+   text-align: center;
    margin-right: 10px;
 }
 
+.card {
+	position: relative;
+	background: #FFF;
+	color: #758F9B;
+	border-radius: 5px;
+	box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.05);
+	border: none;
+  margin-bottom: 5px;
+  text-align: left;
+  transition: all .25s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+  transform: translateY(-5px);
+}
+
+.card .content-card {
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.card h3 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+.card p {
+	font-size: 14px;
+	margin-bottom: 0;
+}
+
+.card .thumbnail {
+	min-height: 300px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.card .tags {
+  margin-bottom: 25px;
+}
+
+.card .bottom-info {
+	font-size: 14px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	padding: 20px 0;
+}
+
 .productList{
-    
+
 }
 
 .productItems{
@@ -116,7 +173,7 @@ body {
    padding-top: 15px;
    padding-bottom: 15px;
 }
-	
+
 .productDesc h3{
 	float: left;
 }
@@ -170,4 +227,12 @@ body {
 
 .whiteColor{
     color: white !important;
+}
+
+.loadMore button {
+    background: linear-gradient(165deg, #6e60cc, #484389);
+    color: white;
+    width: 60vh;
+    padding: 20px;
+    margin: 20px auto;
 }
