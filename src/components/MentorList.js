@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom';
+import Heart from './Heart';
 
 class MentorList extends Component {
     render() {
@@ -12,6 +13,7 @@ class MentorList extends Component {
                         <p className="tags">{this.props.data.technology}</p>
                         <div className="bottom-info">
                           <p>{this.props.data.country}</p>
+                          <Heart {...this.props.data} />
                         </div>
                     </div>
                 </Link>
