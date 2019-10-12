@@ -82,6 +82,13 @@ const data = [
         technology: 'Php, Javascript',
         country: 'India',
         biography: 'I am Full Stack Web Developer'
+    },
+    {
+        name: 'Arseny Boykov',
+        image: 'https://github.com/MrMrRobat',
+        technology: 'Python, async.io',
+        country: 'Russia',
+        biography: 'Make staff since 2000. Love cakes and beer.' // 'I am Full Stack Web Developer'
     }
 ];
 
