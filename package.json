@@ -2,7 +2,6 @@
   "name": "Coding-AI",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://10secondsofcode.github.io/Coding-AI/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "react": "^16.6.0",
