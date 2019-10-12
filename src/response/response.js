@@ -82,7 +82,15 @@ const data = [
         technology: 'Php, Javascript',
         country: 'India',
         biography: 'I am Full Stack Web Developer'
+    },
+    {
+        name: 'Darpan',
+        image: 'https://avatars0.githubusercontent.com/u/14301996?s=400&u=71e9200f5037c290c092f01c3ec408e5705e4cca&v=4',
+        technology: 'Java, Nodejs, AngularJS, ReactJS, Spring',
+        country: 'India',
+        biography: 'I am Full Stack Web Developer and a ML enthusiast'
     }
+
 ];
 
 export default data;
