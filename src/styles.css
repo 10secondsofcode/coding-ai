@@ -4,6 +4,12 @@ body {
     width: 980px !important;
     font-family: sans-serif;
 }
+@media screen and (max-width: 998px){
+    body{
+     width: 100% !important;
+     overflow-x: hidden;
+    }
+ }
 .App {
     text-align: center;
 }
