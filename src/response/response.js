@@ -82,6 +82,13 @@ const data = [
         technology: 'Php, Javascript',
         country: 'India',
         biography: 'I am Full Stack Web Developer'
+    },
+    {
+        name: 'Saliban',
+        image: '',
+        technology: 'Javascript,React.js',  
+        country: 'Iran', 
+        biography: 'I am a FrontEnd developer' 
     }
 ];
 
