@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import data from "../response/response";
 import {Link} from 'react-router-dom';
 import MentorList from "../components/MentorList";
+import Filter from '../components/Filter';
 
 class Mentor extends Component {
 
@@ -10,7 +11,7 @@ class Mentor extends Component {
         super(props);
         this.state = {
             Product: [],
-            showProducts: 10,
+            showProducts: 9,
             isLoading: false
         }
     }
@@ -24,7 +25,11 @@ class Mentor extends Component {
         console.log("sdsss==>" + JSON.stringify(data));
 
         this.setState({
-            Product: data
+            Product: data,
+            filter: {
+                technology: null,
+                country: null
+            }
         });
 
         /*fetch(Data)
@@ -55,6 +60,33 @@ class Mentor extends Component {
         return productList.slice(0, showProducts)
     }
 
+    setFilter = e => {
+        const { name, value } = e.target;
+        this.setState(state => {
+            const newState = {...state}
+            newState.filter[name] = value;
+            return newState;
+        }, this.filter);
+    }
+
+    filter = () => {
+        const {technology, country} = this.state.filter;
+        let Product = null
+        if(technology) {
+            Product = data.filter(mentor => {
+                const lowerCased = mentor.technology.split(',').map(t => t.trim().toLowerCase());
+                return lowerCased.includes(technology);
+            });
+        }
+
+        if(country) {
+            Product = Product.filter(mentor => mentor.country.toLowerCase() === country.toLowerCase());
+        }
+
+        this.setState({
+            Product
+        });
+    }
 
     render() {
         const { isLoading } = this.state
@@ -63,9 +95,16 @@ class Mentor extends Component {
                 <div className="container content-main">
                     <br />
                     <div className="row">
-                        {this.getSearchedProducts().map((data) => {
-                            return <MentorList key={data.id} data={data} />
-                        })}
+                        <div className="col-md-4">
+                            <Filter data={ data } setFilter = { this.setFilter } />
+                        </div>
+                        <div className="col-md-8">
+                            <div className="row">
+                                {this.state.Product.map((data) => {
+                                    return <MentorList key={data.id} data={data} />
+                                })}
+                            </div>
+                        </div>
                     </div>
                     <div className="loadMore">
                         <button onClick={this.loadMore.bind(this)}>{isLoading ? "Loading" : "Load More"}</button>

@@ -4,6 +4,12 @@ body {
     width: 980px !important;
     font-family: sans-serif;
 }
+@media screen and (max-width: 998px){
+    body{
+     width: 100% !important;
+     overflow-x: hidden;
+    }
+ }
 .App {
     text-align: center;
 }
@@ -114,7 +120,6 @@ body {
 }
 
 .card .content-card {
-    /* padding: 20px; */
     padding-top: 10px;
     margin-bottom: 20px;
     text-align: center;
@@ -150,9 +155,10 @@ body {
 .card .bottom-info {
 	font-size: 14px;
 	width: 100%;
-	position: absolute;
-	bottom: 0px;
-	padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1em;
+    padding-left: 1em;
 }
 
 .productList{
@@ -238,4 +244,26 @@ body {
     width: 60vh;
     padding: 20px;
     margin: 20px auto;
+}
+
+.heart-container {
+    cursor: pointer;
+    display: flex;
+}
+
+.heart-container:hover {
+    color: red;
+}
+
+.heart {
+    font-size: 1rem;
+    margin-right: 5px;
+}
+
+.like-count {
+    font-size: 1rem;
+}
+
+.like-count:hover {
+    color: red;
 }

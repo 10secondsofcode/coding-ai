@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom';
+import Heart from './Heart';
 
 class MentorList extends Component {
     render() {
         return (
-            <div className="col-sm-4">
+            <div className="col-sm-6">
                 <Link to={{ pathname: '/MentorList', state: { id: this.props.data } }} className="card">
                     <div className="thumbnail" style={ { backgroundImage: `url(${this.props.data.image})` } } alt="Card cap" />
                     <div className="content-card">
@@ -12,6 +13,7 @@ class MentorList extends Component {
                         <p className="tags">{this.props.data.technology}</p>
                         <div className="bottom-info">
                           <p>{this.props.data.country}</p>
+                          <Heart {...this.props.data} />
                         </div>
                     </div>
                 </Link>
