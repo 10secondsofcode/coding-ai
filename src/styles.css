@@ -102,6 +102,11 @@ body {
 }
 
 .card {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 320px;
+    height: 420px;
 	position: relative;
 	background: #FFF;
 	color: #758F9B;
@@ -137,7 +142,10 @@ body {
 }
 
 .card .thumbnail {
-	min-height: 300px;
+    min-height: 300px;
+    min-width: 300px;
+    max-height: 300px;
+    max-width: 300px;
 	background-repeat: no-repeat;
 	background-position: center center;
     background-attachment: scroll;
