@@ -114,8 +114,10 @@ body {
 }
 
 .card .content-card {
-	padding: 20px;
-	margin-bottom: 20px;
+    /* padding: 20px; */
+    padding-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .card h3 {
@@ -133,7 +135,8 @@ body {
 	min-height: 300px;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-attachment: scroll;
+    background-attachment: scroll;
+    border-radius: 50%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
