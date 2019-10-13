@@ -102,6 +102,11 @@ body {
 }
 
 .card {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 320px;
+    height: 420px;
 	position: relative;
 	background: #FFF;
 	color: #758F9B;
@@ -120,7 +125,9 @@ body {
 }
 
 .card .content-card {
-	padding: 20px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .card h3 {
@@ -135,10 +142,14 @@ body {
 }
 
 .card .thumbnail {
-	min-height: 300px;
+    min-height: 300px;
+    min-width: 300px;
+    max-height: 300px;
+    max-width: 300px;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-attachment: scroll;
+    background-attachment: scroll;
+    border-radius: 50%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -154,6 +165,8 @@ body {
 	width: 100%;
     display: flex;
     justify-content: space-between;
+    padding-right: 1em;
+    padding-left: 1em;
 }
 
 .productList{
