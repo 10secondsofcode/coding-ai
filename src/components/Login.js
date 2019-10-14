@@ -80,7 +80,6 @@ class Login extends Component {
                   type="submit"
                   className="btn btn-primary"
                   disabled={!this.canBeSubmitted()}
-                  type="submit"
                   onClick={this.handleLoginSubmit}
                 >
                   Submit
