@@ -118,6 +118,13 @@ const data = [
     technology: "Php, Javascript",
     country: "India",
     biography: "I am Full Stack Web Developer"
+  },
+  {
+    name: 'Rashid',
+    image: 'https://avatars2.githubusercontent.com/u/1191631',
+    technology: 'Javascript, Angular, ReactJS, NodeJS',
+    country: 'India',
+    biography: 'I am a Frontend Engineer'
   }
 ];
 
