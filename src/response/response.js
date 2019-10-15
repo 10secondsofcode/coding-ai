@@ -125,7 +125,7 @@ const data = [
     technology: 'Javascript, Angular, ReactJS, NodeJS',
     country: 'India',
     biography: 'I am a Frontend Engineer'
-  }
+  },
   {
     name: 'Gurpreet Singh',
     image: 'https://avatars2.githubusercontent.com/u/8161329',
