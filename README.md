@@ -1,6 +1,6 @@
 # ![Coding-AI](media/banner_text.png)
 
-&nbsp; [![Netlify Status](https://api.netlify.com/api/v1/badges/1355ea63-470d-4f37-987e-af334ab16432/deploy-status)](https://app.netlify.com/sites/mentors/deploys)
+&nbsp; [![Netlify Status](https://api.netlify.com/api/v1/badges/1355ea63-470d-4f37-987e-af334ab16432/deploy-status)](https://app.netlify.com/sites/mentors/deploys)&nbsp; [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)&nbsp; [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/)&nbsp; [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
 Coding-AI helps to find a mentor related your technologies stack.
 
@@ -20,7 +20,7 @@ Follow these steps to make your first pull request:
     git commit -m "your name"
     git push origin master
     ```
-5. Then create your pull request.
+5. Then create your pull requestA
 
 6. :star: my repository.
 
