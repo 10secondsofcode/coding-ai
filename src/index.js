@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Login from "./components/Login";
+import MentorList from "./components/MentorList";
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
@@ -10,6 +11,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 ReactDOM.render(
         <BrowserRouter>
             <Switch>
+                <Route path="/MentorList" exact component={MentorList} />
                 <Route path="/login" exact component={Login} />
                 <Route path="/" exact component={App} />
             </Switch>
