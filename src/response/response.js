@@ -132,6 +132,13 @@ const data = [
     technology: 'Javascript, ReactJS',
     country: 'Germany',
     biography: 'Lead Front End Developer'
+  },
+  {
+    name: 'Atul Krishna',
+    image: 'https://avatars3.githubusercontent.com/u/11033984',
+    technology: 'Javascript, ReactJs, Angular, Python, Java',
+    country: 'India',
+    biography: 'I am Software Engineer based in Bengaluru, India.'
   }
 ];
 
