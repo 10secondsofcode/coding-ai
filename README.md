@@ -9,18 +9,18 @@ Follow these steps to make your first pull request-
 
 2. Clone your forked repository to your local machine.
 
-3. Take any one of issues from issues list and created the PR.
+3. Take any issue from the issues list and create the PR.
 
-4. Write these command on your terminal:
+4. Write these commands on your terminal:
     ```
     git add -A
     git commit -m "your name"
     git push origin master
     ```
-5. Then create your pull request.
+5. Create your pull request.
 
 6. Star my repository.
 
-7. Congratulations!! You have successfully created your pull request.
+7. Congratulations! You have successfully created your pull request.
 
-8. Check your progress here (https://hacktoberfest.digitalocean.com/profile) Wait for your shirt.
+8. Check your progress here (https://hacktoberfest.digitalocean.com/profile) and wait for your shirt, good luck! 
