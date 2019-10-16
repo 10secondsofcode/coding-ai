@@ -25,38 +25,28 @@
     <title>React App</title>
     <link rel="stylesheet" href="%PUBLIC_URL%/styles.css" type="text/css" />
   </head>
-  <body>
-    <noscript>
-      You need to enable JavaScript to run this app.
-    </noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-      <script>
-        if ('serviceWorker' in navigator) {
-          window.addEventListener('load', function () {
-            //alert("if loop ==>");
-            navigator.serviceWorker.register('service-worker.js').then(function (registration) {
-              //alert("if loop ==>"+registration.scope);
-              console.log('ServiceWorker registration successful with scope: ', registration.scope);
-            }, function (err) {
-              console.log('ServiceWorker registration failed: ', err);
-            }).catch(function (err) {
-              console.log(err)
-            });
-          });
-        } else {
-          alert("elase loop ==>");
-          console.log('service worker is not supported');
-        }
-      </script>
-  </body>
-</html>
+   <body>
+     <noscript>
+       You need to enable JavaScript to run this app.
+     </noscript>
+     <div id="root"></div>
+       <script>
+         if ('serviceWorker' in navigator) {
+           window.addEventListener('load', function () {
+             //alert("if loop ==>");
+             navigator.serviceWorker.register('service-worker.js').then(function (registration) {
+               //alert("if loop ==>"+registration.scope);
+               console.log('ServiceWorker registration successful with scope: ', registration.scope);
+             }, function (err) {
+               console.log('ServiceWorker registration failed: ', err);
+             }).catch(function (err) {
+               console.log(err)
+             });
+           });
+         } else {
+           alert("elase loop ==>");
+           console.log('service worker is not supported');
+         }
+       </script>
+   </body>
+ </html>
