@@ -14,9 +14,10 @@ const Filter = ({ data, setFilter }) => {
   const countries = [...new Set(data.map(mentor => mentor.country))];
 
   return (
-    <div className="row">
-      <div className="col-md-6">
-        <select class="form-control" name="technology" onChange={setFilter}>
+    <div className="row col-md-12">
+      <h3 className="nav-link">Filters</h3>
+      <div className="col-md-12">
+        <select class="form-control dropdown" name="technology" onChange={setFilter}>
           {technologies.map((tec, i) => (
             <option key={i} value={tec} className="dropdown-item">
               {capitalize(tec)}
@@ -24,8 +25,8 @@ const Filter = ({ data, setFilter }) => {
           ))}
         </select>
       </div>
-      <div className="col-md-6">
-        <select class="form-control" name="country" onChange={setFilter}>
+      <div className="col-md-12">
+        <select class="form-control dropdown" name="country" onChange={setFilter}>
           {countries.map((country, i) => (
             <option key={i}>{country}</option>
           ))}

@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0 auto !important;
-    width: 980px !important;
+    width: 100%;
     font-family: sans-serif;
 }
 @media screen and (max-width: 998px){
@@ -105,17 +105,18 @@ body {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    width: 320px;
-    height: 420px;
+    /* width: 320px;
+    height: 420px; */
 	position: relative;
 	background: #FFF;
 	color: #758F9B;
 	border-radius: 5px;
 	box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.05);
 	border: none;
-  margin-bottom: 5px;
-  text-align: left;
-  transition: all .25s ease-in-out;
+    margin-bottom: 5px;
+    text-align: left;
+    transition: all .25s ease-in-out;
+    min-height: 300px;
 }
 
 .card:hover {
@@ -141,11 +142,11 @@ body {
 	margin-bottom: 0;
 }
 
-.card .thumbnail {
-    min-height: 300px;
-    min-width: 300px;
+.thumbnail {
+    min-height: 150px;
+    min-width: 100%;
     max-height: 300px;
-    max-width: 300px;
+    max-width: 100%;
 	background-repeat: no-repeat;
 	background-position: center center;
     background-attachment: scroll;
@@ -274,4 +275,8 @@ body {
 
 .like-count:hover {
     color: red;
+}
+
+.dropdown{
+    margin-bottom: 10px;
 }

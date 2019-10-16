@@ -117,10 +117,10 @@ class Mentor extends Component {
         <div className="container content-main">
           <br />
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-3">
               <Filter data={data} setFilter={this.setFilter} />
             </div>
-            <div className="col-md-8">
+            <div className="col-md-9">
               <div className="row">
                 {this.state.Product.map(data => {
                   return <MentorList key={data.id} data={data} />;
