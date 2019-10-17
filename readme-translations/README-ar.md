@@ -22,6 +22,6 @@
 
 7. مبروك! لقد قمت بإنشاء pull request بنجاح.
 
-8. تحقق من تقدمك [هنا] (https://hacktoberfest.digitalocean.com/profile) وانتظر قميصك.
+8. تحقق من تقدمك [هنا](https://hacktoberfest.digitalocean.com/profile) وانتظر قميصك.
 
-النسخة البرتغالية البرازيلية من الملف README.md [هنا] (/ README-ptbr.md)!
+النسخة البرتغالية البرازيلية من الملف README.md [هنا](/README-ptbr.md)!
