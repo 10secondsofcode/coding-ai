@@ -140,6 +140,13 @@ const data = [
     country: 'India',
     biography: 'I am Software Engineer based in Bengaluru, India.'
   }
+  {
+    name: 'Will',
+    image: 'https://avatars0.githubusercontent.com/u/10842135',
+    technology: 'Javascript, Java, ',
+    country: 'USA',
+    biography: 'I am Sr Project Manager for the largest entertainment company in the world!'
+  }
 ];
 
 export default data;
