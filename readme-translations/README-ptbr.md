@@ -9,7 +9,7 @@ Siga estes passos para realizar sua primeira pull-request:
 
 2. Clone o repositório localmente na sua máquina.
 
-3.Escolha algum issue da lista de issues e faça as alterações.
+3. Escolha algum issue da lista de issues e faça as alterações.
 
 4. Escreva estes comandos no seu terminal:
     ```
