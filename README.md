@@ -3,15 +3,15 @@ Coding-AI helps to find a mentor related your technologies stack. &nbsp; [![Netl
 
 
 # Welcome to HacktoberFest 2019!
-Follow these steps to make your first pull request-
+Follow these steps to make your first pull request:
 
 1. Fork this repository.
 
 2. Clone your forked repository to your local machine.
 
-3. Take any one of issues from issues list and created the PR.
+3. Take any issue from issues list and create the PR.
 
-4. Write these command on your terminal:
+4. Write these commands on your terminal:
     ```
     git add -A
     git commit -m "your name"
@@ -23,4 +23,6 @@ Follow these steps to make your first pull request-
 
 7. Congratulations!! You have successfully created your pull request.
 
-8. Check your progress here (https://hacktoberfest.digitalocean.com/profile) Wait for your shirt.
+8. Check your progress [here](https://hacktoberfest.digitalocean.com/profile) and wait for your shirt.
+
+Brazilian portuguese version of the README.md file [here](readme-translations/README-ptbr.md)!
