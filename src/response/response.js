@@ -139,7 +139,7 @@ const data = [
     technology: 'Javascript, ReactJs, Angular, Python, Java',
     country: 'India',
     biography: 'I am Software Engineer based in Bengaluru, India.'
-  }
+  },
   {
     name: 'Will',
     image: 'https://avatars0.githubusercontent.com/u/10842135',
