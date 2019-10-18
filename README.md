@@ -26,13 +26,14 @@ Follow these steps to make your first pull request:
 8. Check your progress [here](https://hacktoberfest.digitalocean.com/profile) and wait for your shirt.
 
 Brazilian portuguese version of the README.md file [here](readme-translations/README-ptbr.md)!
+
 German version of the README.md file [here](readme-translations/README-de.md)!
-
-
 
 Peruvian Spanish version of the README.md file [here](readme-translations/README-es.md)!
 
 Arabic version of the README.md file [here](readme-translations/README-ar.md)!
 
 Thai version of the README.md file [here](readme-translations/README-th.md)!
+
+Korean version of the README.md file [here](readme-translations/README-kr.md)!
 
