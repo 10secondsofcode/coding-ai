@@ -1,33 +1,30 @@
-import React, { Component } from "react";
-// import { Route, Link } from "react-router-dom";
-//import logo from "./logo.svg";
-import "./styles.css";
+// App.js comes as example we at first create the app, leaving it here while we don't really use it,
+// will confuse people. My suggestion is to delete it.
+// The search should be handled somewhere else IMO.
 
-import Header from "./components/Header";
-import Router from "./components/Router";
-import Mentor from "./components/Mentor";
+// import React, { Component } from "react";
+// // import { Route, Link } from "react-router-dom";
+// //import logo from "./logo.svg";
+// import "./styles.css";
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      search: ""
-    };
-  }
+// import Header from "./components/Header";
+// import Router from "./components/Router";
+// import Mentors from "./components/Mentors";
 
-  search = val => {
-    this.setState({ search: val });
-  };
+// class App extends Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = {
+//       search: ""
+//     };
+//   }
 
-  render() {
-    return (
-      <div className="App">
-        <Header handleSearch={this.search} />
-        <Router />
-        {/* <Status /> */}
-        <Mentor search={this.state.search} />
-      </div>
-    );
-  }
-}
-export default App;
+//   search = val => {
+//     this.setState({ search: val });
+//   };
+
+//   render() {
+//     return <div className="App"></div>;
+//   }
+// }
+// export default App;

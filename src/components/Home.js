@@ -1,10 +1,12 @@
 import React from "react";
+import Header from "./Header";
 // import { Link } from "react-router-dom";
 
 const home = () => {
   return (
-    <div title="Home">
-      {/* <h1>Home Page</h1> */}
+    <div className="wrapper home">
+      <Header />
+      <h1>Home Page</h1>
     </div>
   );
 };
