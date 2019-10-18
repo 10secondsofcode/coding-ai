@@ -3,6 +3,8 @@ Coding-AI helps to find a mentor related your technologies stack. &nbsp; [![Netl
 
 # Welcome to HacktoberFest 2019!
 
+<p align="center"><img src="https://hacktoberfest.digitalocean.com/assets/logo-hf19-header-8245176fe235ab5d942c7580778a914110fa06a23c3d55bf40e2d061809d8785.svg"></p>
+
 Follow these steps to make your first pull request:
 
 1. Fork this repository.
