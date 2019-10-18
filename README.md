@@ -33,4 +33,5 @@ German version of the README.md file [here](readme-translations/README-de.md)!
 Peruvian Spanish version of the README.md file [here](readme-translations/README-es.md)!
 
 Arabic version of the README.md file [here](readme-translations/README-ar.md)!
+Thai version of the README.md file [here](readme-translations/README-th.md)!
 
