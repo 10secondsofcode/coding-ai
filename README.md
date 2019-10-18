@@ -44,5 +44,5 @@ Thai version of the README.md file [here](readme-translations/README-th.md)!
 
 Korean version of the README.md file [here](readme-translations/README-kr.md)!
 
-
+Chinese  (Simplified) version of the README.md file [here](readme-translations/README-zh.md)!
 
