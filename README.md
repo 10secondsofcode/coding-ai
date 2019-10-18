@@ -27,4 +27,8 @@ Follow these steps to make your first pull request:
 
 Brazilian portuguese version of the README.md file [here](readme-translations/README-ptbr.md)!
 
+
 Peruvian Spanish version of the README.md file [here](readme-translations/README-es.md)!
+
+Arabic version of the README.md file [here](readme-translations/README-ar.md)!
+
