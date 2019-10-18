@@ -33,7 +33,12 @@ Peruvian Spanish version of the README.md file [here](readme-translations/README
 
 Arabic version of the README.md file [here](readme-translations/README-ar.md)!
 
+Korean version of the README.md file [here](readme-translations/README-kr.md)!
+
+Norwegian version of the README.md file [here](readme-translations/README-no.md)!
+
 Thai version of the README.md file [here](readme-translations/README-th.md)!
 
 Korean version of the README.md file [here](readme-translations/README-kr.md)!
+
 
