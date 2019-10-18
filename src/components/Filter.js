@@ -1,7 +1,7 @@
 import React from "react";
 
 const capitalize = word => {
-    if(typeof word === 'string') {
+    if(typeof word === 'string' && word.length > 1) {
         return word[0].toUpperCase() + word.slice(1)
     }
 }
