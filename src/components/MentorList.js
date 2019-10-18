@@ -5,7 +5,7 @@ import Heart from './Heart';
 class MentorList extends Component {
     render() {
         return (
-            <div className="col-sm-6">
+            <div className="col-sm-4">
                 <Link to={{ pathname: '/MentorList', state: { id: this.props.data } }} className="card">
                     <div className="thumbnail" style={ { backgroundImage: `url(${this.props.data.image})` } } alt="Card cap" />
                     <div className="content-card">

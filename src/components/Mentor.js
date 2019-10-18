@@ -21,13 +21,29 @@ class Mentor extends Component {
   products() {
     console.log("sdsss==>" + JSON.stringify(data));
 
-    this.setState({
-      Product: data,
-      filter: {
-        technology: null,
-        country: null
-      }
-    });
+    const arr = data.map(mentor =>
+      mentor.technology.split(",").map(t => t.trim().toLowerCase())
+    );
+    const technologies = [...new Set([].concat.apply([], arr))];
+    const countries = [...new Set(data.map(mentor => mentor.country))];
+
+    if (data) {
+      this.setState({
+        Product: data,
+        filter: {
+          technology: null,
+          country: null
+        }
+      });
+    }
+    if (technologies.length && countries.length) {
+      this.setState({
+        filter: {
+          technology: technologies[0],
+          country: countries[0]
+        }
+      });
+    }
 
     /*fetch(Data)
          .then(response => {
@@ -56,8 +72,8 @@ class Mentor extends Component {
     const { showProducts } = this.state;
     const productList = search
       ? this.state.Product.filter(
-          data => data.name.toLowerCase().indexOf(search.toLowerCase()) !== -1
-        )
+        data => data.name.toLowerCase().indexOf(search.toLowerCase()) !== -1
+      )
       : this.state.Product;
     return productList.slice(0, showProducts);
   }
@@ -101,10 +117,10 @@ class Mentor extends Component {
         <div className="container content-main">
           <br />
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-3">
               <Filter data={data} setFilter={this.setFilter} />
             </div>
-            <div className="col-md-8">
+            <div className="col-md-9">
               <div className="row">
                 {this.state.Product.map(data => {
                   return <MentorList key={data.id} data={data} />;
