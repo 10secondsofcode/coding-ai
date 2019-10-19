@@ -23,7 +23,7 @@ const Filter = ({ data, setFilter }) => {
       <h3 className="nav-link">Filters</h3>
       <div className="col-md-12">
         <select
-          class="form-control dropdown"
+          className="form-control dropdown"
           name="technology"
           onChange={setFilter}
         >
@@ -36,7 +36,7 @@ const Filter = ({ data, setFilter }) => {
       </div>
       <div className="col-md-12">
         <select
-          class="form-control dropdown"
+          className="form-control dropdown"
           name="country"
           onChange={setFilter}
         >
