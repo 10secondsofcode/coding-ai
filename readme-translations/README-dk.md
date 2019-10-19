@@ -19,7 +19,7 @@ Følg disse trin for at fremsætte din første pull-anmodning:
     ```
 5. Opret derefter din pull-anmodning.
 
-6. Stjerner mit depot (repository).
+6. Stjerner mit depot.
 
 7. Tillykke!! Du har oprettet din pull-anmodning.
 
