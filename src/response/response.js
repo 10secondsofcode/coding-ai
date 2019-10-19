@@ -146,6 +146,13 @@ const data = [
     technology: 'Javascript, Java, ',
     country: 'USA',
     biography: 'I am Sr Project Manager for the largest entertainment company in the world!'
+  },
+  {
+    name: 'Matt',
+    image: 'https://avatars2.githubusercontent.com/u/15995932',
+    technology: 'Javascript, ReactJS, NodeJS',
+    country: 'USA',
+    biography: 'I am a university professor with head in the cloud dreams of achieving Financial Independence through Full Stack Web Development.'
   }
 ];
 
