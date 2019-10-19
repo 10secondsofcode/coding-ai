@@ -146,6 +146,13 @@ const data = [
     technology: 'Javascript, Java, ',
     country: 'USA',
     biography: 'I am Sr Project Manager for the largest entertainment company in the world!'
+  },
+  {
+    name: 'Weje Emmauel',
+    image: 'https://s.gravatar.com/avatar/82880ef540f92d552e36a26bf79ca9df?s=80',
+    technology: 'PHP(Laravel), Ruby, React JS',
+    country: 'Ireland',
+    biography: 'I\'m a software engineer'
   }
 ];
 
