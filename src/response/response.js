@@ -146,7 +146,14 @@ const data = [
     technology: 'Javascript, Java, ',
     country: 'USA',
     biography: 'I am Sr Project Manager for the largest entertainment company in the world!'
-  }
+  },
+  {
+    name: 'Leanne Lacey',
+    image: 'https://github.com/Leannelb',
+    technology: 'JavaScript, Angular, HTML, CSS, SASS, NodeJS',  //'Php, Javascript',
+    country: 'Ireland', //india
+    biography: 'I\'m a Developer from green \'ol Ireland. Working mainly with Angular 2'
+}
 ];
 
 export default data;
