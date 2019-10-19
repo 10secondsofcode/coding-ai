@@ -1,23 +1,32 @@
 import React from "react";
 
 const capitalize = word => {
-    if(typeof word === 'string' && word.length > 1) {
-        return word[0].toUpperCase() + word.slice(1)
-    }
-}
+
+  if (typeof word === "string") {
+    return String(word[0]).toUpperCase() + String(word.slice(1));
+  }
+};
 
 const Filter = ({ data, setFilter }) => {
   const arr = data.map(mentor =>
     mentor.technology.split(",").map(t => t.trim().toLowerCase())
   );
-  const technologies = [...new Set([].concat.apply([], arr))];
+
+  const technologies = [...new Set([].concat.apply([], arr))]
+    // remove technologies with empty string
+    .filter(tech => tech.length > 0);
+
   const countries = [...new Set(data.map(mentor => mentor.country))];
 
   return (
     <div className="row col-md-12">
       <h3 className="nav-link">Filters</h3>
       <div className="col-md-12">
-        <select class="form-control dropdown" name="technology" onChange={setFilter}>
+        <select
+          class="form-control dropdown"
+          name="technology"
+          onChange={setFilter}
+        >
           {technologies.map((tec, i) => (
             <option key={i} value={tec} className="dropdown-item">
               {capitalize(tec)}
@@ -26,7 +35,11 @@ const Filter = ({ data, setFilter }) => {
         </select>
       </div>
       <div className="col-md-12">
-        <select class="form-control dropdown" name="country" onChange={setFilter}>
+        <select
+          class="form-control dropdown"
+          name="country"
+          onChange={setFilter}
+        >
           {countries.map((country, i) => (
             <option key={i}>{country}</option>
           ))}
