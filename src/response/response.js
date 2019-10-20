@@ -57,6 +57,13 @@ const data = [
     biography: "I am Full Stack Web Developer"
   },
   {
+    name: "Mayank",
+    image: "https://avatars1.githubusercontent.com/u/23161291?s=100&v=4",
+    technology: "ReactJs, Java, Python",
+    country: "India",
+    biography: "I am working as a backend-developer."
+  },
+  {
     name: "Naresh",
     image: "https://via.placeholder.com/300/",
     technology: "AngularJS, Javascript",
