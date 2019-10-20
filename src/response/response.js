@@ -160,6 +160,13 @@ const data = [
     technology: 'Javascript, ReactJS, NodeJS',
     country: 'USA',
     biography: 'I am a university professor with head in the cloud dreams of achieving Financial Independence through Full Stack Web Development.'
+  },
+  {
+    name: 'Haidar Rifki',
+    image: 'https://avatars3.githubusercontent.com/u/19185336',
+    technology: 'Javascript, NodeJS, PHP',
+    country: 'Indonesia',
+    biography: 'I am Software Engineer based in Surakarta, Central Java, Indonesia.'
   }
 ];
 
