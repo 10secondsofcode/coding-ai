@@ -153,6 +153,13 @@ const data = [
     technology: 'PHP(Laravel), Ruby, React JS',
     country: 'Ireland',
     biography: 'I\'m a software engineer'
+   },
+   {
+    name: 'Matt',
+    image: 'https://avatars2.githubusercontent.com/u/15995932',
+    technology: 'Javascript, ReactJS, NodeJS',
+    country: 'USA',
+    biography: 'I am a university professor with head in the cloud dreams of achieving Financial Independence through Full Stack Web Development.'
   }
 ];
 
