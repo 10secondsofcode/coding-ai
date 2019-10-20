@@ -148,6 +148,13 @@ const data = [
     biography: 'I am Software Engineer based in Bengaluru, India.'
   },
   {
+    name: "Mayank Kumar",
+    image: "https://avatars0.githubusercontent.com/u/27151470?s=100&v=4",
+    technology: "Java, Javascript",
+    country: "India",
+    biography: "Android Developer."
+  },
+  {
     name: 'Will',
     image: 'https://avatars0.githubusercontent.com/u/10842135',
     technology: 'Javascript, Java, ',
