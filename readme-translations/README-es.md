@@ -3,24 +3,24 @@ Coding-AI te ayuda a encontrar un mentor relacionado con tu stack de tecnología
 
 
 # Bienvenido a HacktoberFest 2019!
-Siga estos pasos para realizar su primer pull request:
+Sigue estos pasos para realizar su primer pull request:
 
 1. Realiza una copia (Fork) de este repositorio.
 
-2. Clona tu repositorio localmente en tu computadora.
+2. Clona el repositorio bifurcado en tu maquina local.
 
-3. Escoja algún issue de la lista de issues y haga un PR.
+3. Elije algún tarea de la lista de problemas y haz un PR.
 
-4. Escriba estos comandos en su terminal:
+4. Escribe estos comandos en tu terminal:
     ```
     git add -A
     git commit -m "your name"
     git push origin master
     ```
-5. Haga un pull request.
+5. Entonces crea tu pull request.
 
 6. Destaca mi repositorio.
 
-7. Felicitaciones!! Has creado un pull request satisfactoriamente.
+7. Enhorabuena!! Has creado un pull request con éxito.
 
-8. Revisa tu progreso [aquí](https://hacktoberfest.digitalocean.com/profile) y espera por tu polo.
+8. Revisa tu progreso [aquí](https://hacktoberfest.digitalocean.com/profile) y espera por tu camiseta.
