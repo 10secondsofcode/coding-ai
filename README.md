@@ -36,6 +36,11 @@ Arabic version of the README.md file [here](readme-translations/README-ar.md)!
 Korean version of the README.md file [here](readme-translations/README-kr.md)!
 
 
+Swedish version of the README.md file [here](readme-translation/README-swe.md)!
+
+Danish version of the README.md file [here](readme-translation/README-dk.md)!
+
+
 Tamil version of the README.md file [here](readme-translations/README-ta.md)!
 
 Dutch version of the README.md file [here](readme-translations/README-nl.md)!
@@ -50,6 +55,7 @@ Thai version of the README.md file [here](readme-translations/README-th.md)!
 Korean version of the README.md file [here](readme-translations/README-kr.md)!
 
 Chinese  (Simplified) version of the README.md file [here](readme-translations/README-zh.md)!
+
 
 
 
