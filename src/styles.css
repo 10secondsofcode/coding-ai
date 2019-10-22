@@ -10,6 +10,11 @@ body {
     overflow-x: hidden;
   }
 }
+i{
+  font-size:4em;
+  margin-right: 0.3em;
+  display: inline-block;
+}
 .App {
   text-align: center;
 }
