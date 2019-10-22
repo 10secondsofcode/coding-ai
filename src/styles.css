@@ -8,6 +8,20 @@ body {
   body {
     width: 100% !important;
     overflow-x: hidden;
+
+  }
+
+  .navbar-collapse {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar-nav.mr-auto {
+    margin-right: 0 !important;
+  }
+
+  .navbar-collapse .form-inline {
+    order: 3;
   }
 }
 .App {

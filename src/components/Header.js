@@ -2,14 +2,32 @@ import React, { Component } from "react";
 // import Login from './Login';
 import { Link } from "react-router-dom";
 
+
 class Header extends Component {
   constructor(props) {
     super(props);
     this.state = {
       username: "Hi!",
-      search: ""
+      search: "",
+      menu: true
     };
+    this.showMenu = this.showMenu.bind(this);
   }
+
+  showMenu() {
+    const mobileNavState = this.state.menu == true ? false : true;
+    
+    this.setState({
+      menu: mobileNavState
+    });
+
+    const navMenu = document.querySelector('.navbar-collapse');
+    if (this.state.menu == true){
+      navMenu.classList.add('show');
+    } else {
+      navMenu.classList.remove('show');
+    }
+  };
 
   user = val => {
     this.setState({ username: val });
@@ -42,6 +60,7 @@ class Header extends Component {
               aria-controls="navbarTogglerDemo02"
               aria-expanded="false"
               aria-label="Toggle navigation"
+              onClick={this.showMenu}
             >
               <span className="navbar-toggler-icon" />
             </button>
