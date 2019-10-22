@@ -188,7 +188,14 @@ const data = [
     technology: "Javascript, React, Eslint/Stylelint",
     country: "Russia",
     biography: "Three years experience in web development"
-  }
+  },
+  {
+    name: 'Meriem Zaid',
+    image: 'https://github.com/iMeriem',
+    technology: 'JavaScript, Python',  
+    country: 'Morocco',
+    biography: 'I write code for living' 
+}
 ];
 
 export default data;
