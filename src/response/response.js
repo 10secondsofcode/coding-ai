@@ -181,6 +181,13 @@ const data = [
     technology: 'Javascript, NodeJS, PHP',
     country: 'Indonesia',
     biography: 'I am Software Engineer based in Surakarta, Central Java, Indonesia.'
+  },
+  {
+    name: 'Diego Rondão',
+    image: 'https://avatars1.githubusercontent.com/u/13041373',
+    technology: 'C#, JS, PHP',
+    country: 'SÃO PAULO - BRAZIL',
+    biography: 'I am Full Stack Web Developer'
   }
 ];
 
