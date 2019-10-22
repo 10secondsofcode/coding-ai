@@ -123,6 +123,7 @@ class Mentor extends Component {
             <div className="col-md-9">
               <div className="row">
                 {this.state.Product.map(data => {
+                  console.log(data)
                   return <MentorList key={data.id} data={data} />;
                 })}
               </div>

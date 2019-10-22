@@ -7,7 +7,7 @@ class MentorList extends Component {
     return (
       <div className="col-sm-4 ">
         <Link
-          to={{ pathname: "/MentorList", state: { id: this.props.data } }}
+          to={{ pathname: "/MentorProfile/2", state: { id: this.props.data } }}
           className="card"
         >
           <div className="text-center">

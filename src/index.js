@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Login from "./components/Login";
+import MentorProfile from "./components/MentorProfile";
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
@@ -12,6 +13,7 @@ ReactDOM.render(
             <Switch>
                 <Route path="/login" exact component={Login} />
                 <Route path="/" exact component={App} />
+                <Route path="/mentor/:mentorId" exact component={MentorProfile} />
             </Switch>
         </BrowserRouter>, 
         document.getElementById('root')
