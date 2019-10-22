@@ -175,7 +175,7 @@ const data = [
     biography: "Android Developer."
   },
   {
-    id:22,
+    id:23,
     name: 'Will',
     image: 'https://avatars0.githubusercontent.com/u/10842135',
     technology: 'Javascript, Java, ',
@@ -183,7 +183,7 @@ const data = [
     biography: 'I am Sr Project Manager for the largest entertainment company in the world!'
   },
   {
-    id:23,
+    id:24,
     name: 'Weje Emmauel',
     image: 'https://s.gravatar.com/avatar/82880ef540f92d552e36a26bf79ca9df?s=80',
     technology: 'PHP(Laravel), Ruby, React JS',
@@ -191,7 +191,7 @@ const data = [
     biography: 'I\'m a software engineer'
    },
    {
-    id:24,
+    id:25,
     name: 'Matt',
     image: 'https://avatars2.githubusercontent.com/u/15995932',
     technology: 'Javascript, ReactJS, NodeJS',
@@ -199,7 +199,7 @@ const data = [
     biography: 'I am a university professor with head in the cloud dreams of achieving Financial Independence through Full Stack Web Development.'
   },
   {
-    id:25,
+    id:26,
     name: 'Haidar Rifki',
     image: 'https://avatars3.githubusercontent.com/u/19185336',
     technology: 'Javascript, NodeJS, PHP',
@@ -207,7 +207,7 @@ const data = [
     biography: 'I am Software Engineer based in Surakarta, Central Java, Indonesia.'
   },
   {
-    id:26,
+    id:27,
     name: 'Diego Rondão',
     image: 'https://avatars1.githubusercontent.com/u/13041373',
     technology: 'C#, JS, PHP',
