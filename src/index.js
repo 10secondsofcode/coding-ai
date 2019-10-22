@@ -13,7 +13,7 @@ ReactDOM.render(
             <Switch>
                 <Route path="/login" exact component={Login} />
                 <Route path="/" exact component={App} />
-                <Route path="/mentor/:mentorId" exact component={MentorProfile} />
+                <Route path="/mentor/:mentorId" component={MentorProfile} />
             </Switch>
         </BrowserRouter>, 
         document.getElementById('root')

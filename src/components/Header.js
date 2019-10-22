@@ -29,11 +29,7 @@ class Header extends Component {
       <div className="main thememain-header">
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-light bg-light thememain-header">
-            <Link to="/">
-              <a className="navbar-brand" href="void" title="Coding-AI">
-                Coding-AI
-              </a>
-            </Link>
+            <Link to="/" className="navbar-brand" title="Coding-AI">  Coding-AI </Link>
             <button
               className="navbar-toggler"
               type="button"
@@ -49,12 +45,7 @@ class Header extends Component {
             <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
               <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li className="nav-item active">
-                  <Link to="/">
-                    <a className="nav-link" href="void" title="Coding-AI">
-                      Home
-                      <span className="sr-only">(current)</span>
-                    </a>
-                  </Link>
+                  <Link to="/" className="nav-link" href="void" title="Coding-AI"> Home  <span className="sr-only">(current)</span> </Link>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="void" title="Find a Mentor">
