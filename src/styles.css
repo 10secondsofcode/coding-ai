@@ -15,6 +15,16 @@ i{
   margin-right: 0.3em;
   display: inline-block;
 }
+
+.mentor-img-thumbnail {
+  padding: 0.25rem;
+  /* background-color: #fff; */
+  /* border: 1px solid #dee2e6; */
+  border-radius: 0.25rem;
+  max-width: 100%;
+  /* height: auto; */
+  height: 200px;
+}
 .App {
   text-align: center;
 }

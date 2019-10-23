@@ -1,7 +1,11 @@
 import  React, { Component } from 'react'
+import ReactImageFallback from "react-image-fallback";
 import data from '../response/response'
+
 import Header from './Header'
 
+import loader from '../assets/loader.gif';
+import mentorImage from '../assets/mentor-default.svg';
 
 
 class MentorProfile extends Component{ 
@@ -27,7 +31,13 @@ class MentorProfile extends Component{
   const hasProfileData = this.state.mentorProfile ? (<div>
     <div className="row mt-5 no-gutters">
         <div className="col-sm-4 col-md-4 ">
-        <img src={this.state.mentorProfile.image} className="card-img " alt={this.state.mentorProfile.name} />        
+        <ReactImageFallback
+                    src={this.state.mentorProfile.image}
+                    fallbackImage={mentorImage} //this shows if the montor does not have any image
+                    initialImage={loader}
+                    alt={this.state.mentorProfile.name}
+                    className="card-img mentor-img-thumbnail img-fluid" />
+            
         </div>
         
         <div className="col-md-8">

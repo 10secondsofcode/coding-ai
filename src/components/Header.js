@@ -48,14 +48,12 @@ class Header extends Component {
                   <Link to="/" className="nav-link" href="void" title="Coding-AI"> Home  <span className="sr-only">(current)</span> </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="void" title="Find a Mentor">
-                    Mentors
-                  </a>
+                <Link to="/" className="nav-link" href="void" title="Find a mentor"> Mentors  <span className="sr-only">(current)</span> </Link>
+                
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link disabled" href="void" title="About">
-                    About
-                  </a>
+                <Link to="#" className="nav-link" href="void" title="Find a mentor"> About  <span className="sr-only">(current)</span> </Link>
+                  
                 </li>
               </ul>
               <form className="form-inline my-2 my-lg-0" onSubmit={this.submit}>

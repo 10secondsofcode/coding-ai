@@ -9,6 +9,7 @@
     "react": "^16.6.0",
     "react-blink-text": "^1.0.3",
     "react-dom": "^16.6.0",
+    "react-image-fallback": "^8.0.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "^3.2.0"
   },
