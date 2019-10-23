@@ -175,6 +175,13 @@ const data = [
     technology: 'JavaScript, Python',  
     country: 'Morocco',
     biography: 'I write code for living' 
+},
+{
+  name: 'Abdellah Ramadan',
+  image: 'https://github.com/giantthinker',
+  technology: 'Laravel, Reactjs, Angular, PHP',  
+  country: 'Cameroon',
+  biography: 'Software development as a career' 
 }
 ];
 
