@@ -69,8 +69,8 @@ const data = [
     technology: 'PHP(Laravel), Ruby, React JS',
     country: 'Ireland',
     biography: 'I\'m a software engineer'
-   },
-   {
+  },
+  {
     name: 'Matt',
     image: 'https://avatars2.githubusercontent.com/u/15995932',
     technology: 'Javascript, ReactJS, NodeJS',
@@ -112,7 +112,7 @@ const data = [
     country: "India",
     biography: "I am Full Stack Web Developer"
   },
-  
+
   {
     name: "Krish",
     image: "https://via.placeholder.com/300/",
@@ -172,17 +172,24 @@ const data = [
   {
     name: 'Meriem Zaid',
     image: 'https://github.com/iMeriem',
-    technology: 'JavaScript, Python',  
+    technology: 'JavaScript, Python',
     country: 'Morocco',
-    biography: 'I write code for living' 
-},
-{
-  name: 'Abdellah Ramadan',
-  image: 'https://github.com/giantthinker',
-  technology: 'Laravel, Reactjs, Angular, PHP',  
-  country: 'Cameroon',
-  biography: 'Software development as a career' 
-}
+    biography: 'I write code for living'
+  },
+  {
+    name: 'Abdellah Ramadan',
+    image: 'https://github.com/giantthinker',
+    technology: 'Laravel, Reactjs, Angular, PHP',
+    country: 'Cameroon',
+    biography: 'Software development as a career'
+  },
+  {
+    name: 'Waing La Min Lwin',
+    image: 'https://github.com/archonn',
+    technology: 'Nodejs, React, Python',
+    country: 'Myanmar',
+    biography: 'Software developer focusing on building ML-powered products'
+  }
 ];
 
 export default data;
