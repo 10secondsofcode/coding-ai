@@ -19,7 +19,7 @@ Follow these steps to make your first pull request:
     ```
 5. Then create your pull request.
 
-6. Star my repository.
+6. Star this repository.
 
 7. Congratulations!! You have successfully created your pull request.
 
