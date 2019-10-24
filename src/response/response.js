@@ -189,6 +189,14 @@ const data = [
     technology: 'Nodejs, React, Python',
     country: 'Myanmar',
     biography: 'Software developer focusing on building ML-powered products'
+  },
+
+  {
+    name: 'Kay Ogunbowale',
+    image: 'https://github.com/kay-ogunbo',
+    technology: 'Nodejs, Android, Java, Javascript',
+    country: 'Nigeria',
+    biography: 'Passionate software developer'
   }
 ];
 
