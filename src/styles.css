@@ -131,6 +131,13 @@ body {
   text-align: center;
 }
 
+.card-link {
+  color: black;
+}
+
+.card-link :hover {
+  color: black;
+}
 .card h3 {
   font-size: 18px;
   font-weight: bold;
@@ -267,4 +274,13 @@ body {
 
 .dropdown {
   margin-bottom: 10px;
+}
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 1px solid #ced4da;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding: 10px;
 }

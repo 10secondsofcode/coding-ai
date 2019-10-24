@@ -16,14 +16,14 @@ const data = [
   },
   {
     name: "Arseny Boykov",
-    image: "https://github.com/MrMrRobat",
+    image: "https://avatars3.githubusercontent.com/u/36469655?s=460&v=4",
     technology: "Python, async.io",
     country: "Russia",
     biography: "Make staff since 2000. Love cakes and beer."
   },
   {
     name: "Martyn Son",
-    image: "https://github.com/martyns0n",
+    image: "https://avatars2.githubusercontent.com/u/20739202?s=460&v=4",
     technology: "Javascript, React, Eslint/Stylelint",
     country: "Russia",
     biography: "Three years experience in web development"
@@ -44,7 +44,7 @@ const data = [
   },
   {
     name: "Saliban",
-    image: "",
+    image: "https://via.placeholder.com/300/",
     technology: "Javascript,React.js",
     country: "Iran",
     biography: "I am a FrontEnd developer"
@@ -120,32 +120,33 @@ const data = [
     biography: "I am Full Stack Web Developer"
   },
   {
-    name: 'Rashid',
-    image: 'https://avatars2.githubusercontent.com/u/1191631',
-    technology: 'Javascript, Angular, ReactJS, NodeJS',
-    country: 'India',
-    biography: 'I am a Frontend Engineer'
+    name: "Rashid",
+    image: "https://avatars2.githubusercontent.com/u/1191631",
+    technology: "Javascript, Angular, ReactJS, NodeJS",
+    country: "India",
+    biography: "I am a Frontend Engineer"
   },
   {
-    name: 'Gurpreet Singh',
-    image: 'https://avatars2.githubusercontent.com/u/8161329',
-    technology: 'Javascript, ReactJS',
-    country: 'Germany',
-    biography: 'Lead Front End Developer'
+    name: "Gurpreet Singh",
+    image: "https://avatars2.githubusercontent.com/u/8161329",
+    technology: "Javascript, ReactJS",
+    country: "Germany",
+    biography: "Lead Front End Developer"
   },
   {
-    name: 'Atul Krishna',
-    image: 'https://avatars3.githubusercontent.com/u/11033984',
-    technology: 'Javascript, ReactJs, Angular, Python, Java',
-    country: 'India',
-    biography: 'I am Software Engineer based in Bengaluru, India.'
+    name: "Atul Krishna",
+    image: "https://avatars3.githubusercontent.com/u/11033984",
+    technology: "Javascript, ReactJs, Angular, Python, Java",
+    country: "India",
+    biography: "I am Software Engineer based in Bengaluru, India."
   },
   {
-    name: 'Will',
-    image: 'https://avatars0.githubusercontent.com/u/10842135',
-    technology: 'Javascript, Java, ',
-    country: 'USA',
-    biography: 'I am Sr Project Manager for the largest entertainment company in the world!'
+    name: "Will",
+    image: "https://avatars0.githubusercontent.com/u/10842135",
+    technology: "Javascript, Java, ",
+    country: "USA",
+    biography:
+      "I am Sr Project Manager for the largest entertainment company in the world!"
   }
 ];
 
