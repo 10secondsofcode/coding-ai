@@ -19,30 +19,27 @@ Follow these steps to make your first pull request:
     ```
 5. Then create your pull request.
 
-6. Star my repository.
+6. Star this repository.
 
 7. Congratulations!! You have successfully created your pull request.
 
 8. Check your progress [here](https://hacktoberfest.digitalocean.com/profile) and wait for your shirt.
 
-Brazilian portuguese version of the README.md file [here](readme-translations/README-ptbr.md)!
 
-German version of the README.md file [here](readme-translations/README-de.md)!
+## README translations
 
-Peruvian Spanish version of the README.md file [here](readme-translations/README-es.md)!
-
-Arabic version of the README.md file [here](readme-translations/README-ar.md)!
-
-Korean version of the README.md file [here](readme-translations/README-kr.md)!
-
-
-Hungarian version of the README.md file [here](readme-translations/README-hu.md)!
-
-Norwegian version of the README.md file [here](readme-translations/README-no.md)!
-
-Thai version of the README.md file [here](readme-translations/README-th.md)!
-
-Korean version of the README.md file [here](readme-translations/README-kr.md)!
-
-
-
+| *LANGUAGE*           | *LINK*                                                                                      |
+|----------------------|---------------------------------------------------------------------------------------------|
+| Brazilian Portuguese | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-ptbr.md |
+| German               | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-de.md   |
+| Peruvian Spanish     | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-es.md   |
+| Arabic               | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-ar.md   |
+| Korean               | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-kr.md   |
+| Swedish              | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translation/README-swe.md   |
+| Danish               | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translation/README-dk.md    |
+| Tamil                | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-ta.md   |
+| Dutch                | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-nl.md   |
+| Hungarian            | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-hu.md   |
+| Norwegian            | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-no.md   |
+| Thai                 | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-th.md   |
+| Chinese (SIMPLIFIED) | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-zh.md   |

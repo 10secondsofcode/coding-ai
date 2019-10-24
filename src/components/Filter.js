@@ -1,6 +1,7 @@
 import React from "react";
 
 const capitalize = word => {
+
   if (typeof word === "string") {
     return String(word[0]).toUpperCase() + String(word.slice(1));
   }
@@ -19,10 +20,11 @@ const Filter = ({ data, setFilter }) => {
 
   return (
     <div className="row col-md-12">
-      <h3 className="nav-link">Filters</h3>
+      <h3 className="nav-link">Filter by</h3>
       <div className="col-md-12">
+        <p>Technology</p>
         <select
-          class="form-control dropdown"
+          className="form-control dropdown"
           name="technology"
           onChange={setFilter}
         >
@@ -34,8 +36,9 @@ const Filter = ({ data, setFilter }) => {
         </select>
       </div>
       <div className="col-md-12">
+      <p>Country</p>
         <select
-          class="form-control dropdown"
+          className="form-control dropdown"
           name="country"
           onChange={setFilter}
         >
