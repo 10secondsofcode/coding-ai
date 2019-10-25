@@ -95,6 +95,13 @@ const data = [
     biography: "I am Full Stack Web Developer"
   },
   {
+    name: "Gabriel",
+    image: "https://avatars0.githubusercontent.com/u/56734377?s=40&v=4",
+    technology: "Python",
+    country: "United Kingdom",
+    biography: "I am study my Master in Computer Science"
+  },  
+  {
     name: "Mayank",
     image: "https://avatars1.githubusercontent.com/u/23161291?s=100&v=4",
     technology: "ReactJs, Java, Python",
