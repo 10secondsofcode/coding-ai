@@ -29,25 +29,25 @@ const data = [
     biography: "I am Full Stack Web Developer"
   },
   {
-    name: 'Rashid',
-    image: 'https://avatars2.githubusercontent.com/u/1191631',
-    technology: 'Javascript, Angular, ReactJS, NodeJS',
-    country: 'India',
-    biography: 'I am a Frontend Engineer'
+    name: "Rashid",
+    image: "https://avatars2.githubusercontent.com/u/1191631",
+    technology: "Javascript, Angular, ReactJS, NodeJS",
+    country: "India",
+    biography: "I am a Frontend Engineer"
   },
   {
-    name: 'Gurpreet Singh',
-    image: 'https://avatars2.githubusercontent.com/u/8161329',
-    technology: 'Javascript, ReactJS',
-    country: 'Germany',
-    biography: 'Lead Front End Developer'
+    name: "Gurpreet Singh",
+    image: "https://avatars2.githubusercontent.com/u/8161329",
+    technology: "Javascript, ReactJS",
+    country: "Germany",
+    biography: "Lead Front End Developer"
   },
   {
-    name: 'Atul Krishna',
-    image: 'https://avatars3.githubusercontent.com/u/11033984',
-    technology: 'Javascript, ReactJs, Angular, Python, Java',
-    country: 'India',
-    biography: 'I am Software Engineer based in Bengaluru, India.'
+    name: "Atul Krishna",
+    image: "https://avatars3.githubusercontent.com/u/11033984",
+    technology: "Javascript, ReactJs, Angular, Python, Java",
+    country: "India",
+    biography: "I am Software Engineer based in Bengaluru, India."
   },
   {
     name: "Mayank Kumar",
@@ -57,25 +57,28 @@ const data = [
     biography: "Android Developer."
   },
   {
-    name: 'Will',
-    image: 'https://avatars0.githubusercontent.com/u/10842135',
-    technology: 'Javascript, Java, ',
-    country: 'USA',
-    biography: 'I am Sr Project Manager for the largest entertainment company in the world!'
+    name: "Will",
+    image: "https://avatars0.githubusercontent.com/u/10842135",
+    technology: "Javascript, Java, ",
+    country: "USA",
+    biography:
+      "I am Sr Project Manager for the largest entertainment company in the world!"
   },
   {
-    name: 'Weje Emmauel',
-    image: 'https://s.gravatar.com/avatar/82880ef540f92d552e36a26bf79ca9df?s=80',
-    technology: 'PHP(Laravel), Ruby, React JS',
-    country: 'Ireland',
-    biography: 'I\'m a software engineer'
+    name: "Weje Emmauel",
+    image:
+      "https://s.gravatar.com/avatar/82880ef540f92d552e36a26bf79ca9df?s=80",
+    technology: "PHP(Laravel), Ruby, React JS",
+    country: "Ireland",
+    biography: "I'm a software engineer"
   },
   {
-    name: 'Matt',
-    image: 'https://avatars2.githubusercontent.com/u/15995932',
-    technology: 'Javascript, ReactJS, NodeJS',
-    country: 'USA',
-    biography: 'I am a university professor with head in the cloud dreams of achieving Financial Independence through Full Stack Web Development.'
+    name: "Matt",
+    image: "https://avatars2.githubusercontent.com/u/15995932",
+    technology: "Javascript, ReactJS, NodeJS",
+    country: "USA",
+    biography:
+      "I am a university professor with head in the cloud dreams of achieving Financial Independence through Full Stack Web Development."
   },
   {
     name: "Saliban",
@@ -142,18 +145,19 @@ const data = [
     biography: "I am Full Stack Web Developer"
   },
   {
-    name: 'Haidar Rifki',
-    image: 'https://avatars3.githubusercontent.com/u/19185336',
-    technology: 'Javascript, NodeJS, PHP',
-    country: 'Indonesia',
-    biography: 'I am Software Engineer based in Surakarta, Central Java, Indonesia.'
+    name: "Haidar Rifki",
+    image: "https://avatars3.githubusercontent.com/u/19185336",
+    technology: "Javascript, NodeJS, PHP",
+    country: "Indonesia",
+    biography:
+      "I am Software Engineer based in Surakarta, Central Java, Indonesia."
   },
   {
-    name: 'Diego Rondão',
-    image: 'https://avatars1.githubusercontent.com/u/13041373',
-    technology: 'C#, JS, PHP',
-    country: 'SÃO PAULO - BRAZIL',
-    biography: 'I am Full Stack Web Developer'
+    name: "Diego Rondão",
+    image: "https://avatars1.githubusercontent.com/u/13041373",
+    technology: "C#, JS, PHP",
+    country: "SÃO PAULO - BRAZIL",
+    biography: "I am Full Stack Web Developer"
   },
   {
     name: "Arseny Boykov",
@@ -170,25 +174,25 @@ const data = [
     biography: "Three years experience in web development"
   },
   {
-    name: 'Meriem Zaid',
-    image: 'https://github.com/iMeriem',
-    technology: 'JavaScript, Python',
-    country: 'Morocco',
-    biography: 'I write code for living'
+    name: "Meriem Zaid",
+    image: "https://github.com/iMeriem",
+    technology: "JavaScript, Python",
+    country: "Morocco",
+    biography: "I write code for living"
   },
   {
-    name: 'Abdellah Ramadan',
-    image: 'https://github.com/giantthinker',
-    technology: 'Laravel, Reactjs, Angular, PHP',
-    country: 'Cameroon',
-    biography: 'Software development as a career'
+    name: "Abdellah Ramadan",
+    image: "https://github.com/giantthinker",
+    technology: "Laravel, Reactjs, Angular, PHP",
+    country: "Cameroon",
+    biography: "Software development as a career"
   },
   {
-    name: 'Waing La Min Lwin',
-    image: 'https://github.com/archonn',
-    technology: 'Nodejs, React, Python',
-    country: 'Myanmar',
-    biography: 'Software developer focusing on building ML-powered products'
+    name: "Waing La Min Lwin",
+    image: "https://github.com/archonn",
+    technology: "Nodejs, React, Python",
+    country: "Myanmar",
+    biography: "Software developer focusing on building ML-powered products"
   }
 ];
 
