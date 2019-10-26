@@ -1,3 +1,12 @@
+:root {
+  --primary-color-1: #484389;
+  --primary-color-2: #6e60cc;
+  --secondary-color-1: #007bff;
+  --tertiary-color-1: #ced4da;
+  --white: #fff;
+  --black: #000;
+}
+
 body {
   padding: 0;
   margin: 0 auto !important;
@@ -8,7 +17,6 @@ body {
   body {
     width: 100% !important;
     overflow-x: hidden;
-
   }
 
   .navbar-collapse {
@@ -50,7 +58,11 @@ body {
 }
 
 .thememain-header {
-  background: linear-gradient(165deg, #6e60cc, #484389) !important;
+  background: linear-gradient(
+    165deg,
+    var(--primary-color-2),
+    var(--primary-color-1)
+  ) !important;
   color: #fff !important;
 }
 
@@ -100,7 +112,7 @@ body {
 }
 
 .modal-content {
-  background-color: floralwhite !important;
+  background-color: var(--tertiary-color-1) !important;
 }
 
 .ErrorMessage {
@@ -168,9 +180,19 @@ body {
 }
 
 .card .tags {
-  margin-bottom: 25px;
+  display: inline-flex;
+  background-color: var(--primary-color-1);
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 3px;
+  padding: 3px 6px;
+  border-radius: 0.6rem;
 }
 
+.card-link .tags :hover {
+  color: white;
+}
 .card .bottom-info {
   font-size: 14px;
   width: 100%;
@@ -186,7 +208,7 @@ body {
 .productItems {
   margin: 5px;
   padding: 10px;
-  border: 1px solid #ced4da;
+  border: 1px solid var(--tertiary-color-1);
 }
 
 .productDetailsPage {
@@ -237,31 +259,37 @@ body {
 }
 
 .title {
-  color: white !important;
+  color: var(--white) !important;
 }
 
 .navbar {
-  color: white !important;
+  color: var(--white) !important;
 }
 
 .navbar-collapse {
-  color: white !important;
+  color: var(--white) !important;
 }
 
 .navbar a {
-  color: white !important;
+  color: var(--white) !important;
 }
 
 .whiteColor {
-  color: white !important;
+  color: var(--white) !important;
 }
 
 .loadMore button {
-  background: linear-gradient(165deg, #6e60cc, #484389);
-  color: white;
+  background: linear-gradient(
+    165deg,
+    var(--primary-color-2),
+    var(--primary-color-1)
+  );
+  color: var(--white);
   width: 60vh;
   padding: 20px;
   margin: 20px auto;
+  font-weight: 600;
+  border: none;
 }
 
 .heart-container {
@@ -270,7 +298,7 @@ body {
 }
 
 .heart-container:hover {
-  color: red;
+  color: var(--secondary-color-1);
 }
 
 .heart {
@@ -283,7 +311,7 @@ body {
 }
 
 .like-count:hover {
-  color: red;
+  color: var(--secondary-color-1);
 }
 
 .dropdown {
@@ -293,7 +321,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  border-top: 1px solid #ced4da;
+  border-top: 1px solid var(--tertiary-color-1);
   margin-left: -10px;
   margin-right: -10px;
   padding: 10px;

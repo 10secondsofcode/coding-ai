@@ -5,26 +5,33 @@ import { FaTwitter, FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 class MentorList extends Component {
   render() {
+    const { data } = this.props;
+    const techs = data.technology.split(",").filter(tech => tech.length !== 0);
+
     return (
       <div className="col-sm-4 ">
         <div className="card">
           <Link
-            to={{ pathname: "/MentorList", state: { id: this.props.data } }}
+            to={{ pathname: "/MentorList", state: { id: data } }}
             className="card-link"
           >
             <div className="text-center">
               <img
                 className="img-thumbnail img-fluid rounded-circle thumbnail"
-                src={this.props.data.image}
-                alt={this.props.data.name}
+                src={data.image}
+                alt={data.name}
               />{" "}
             </div>
 
             <div className="content-card">
               <h3>{this.props.data.name}</h3>
-              <p className="tags">{this.props.data.technology}</p>
+              {techs.map((tech, i) => (
+                <div key={i} className="tags">
+                  <span>{tech}</span>
+                </div>
+              ))}
               <div className="bottom-info">
-                <p>{this.props.data.country}</p>
+                {}
                 <Heart {...this.props.data} />
               </div>
             </div>
