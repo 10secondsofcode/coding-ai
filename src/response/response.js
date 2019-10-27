@@ -200,6 +200,13 @@ const data = [
     technology: "Nodejs, React, Python",
     country: "Myanmar",
     biography: "Software developer focusing on building ML-powered products"
+  },
+  {
+    name: "Rafidah Affendi",
+    image: "https://github.com/r4fidah",
+    technology: "HTML, JavaScript, Python",
+    country: "Malaysia",
+    biography: "Self-taught Data Scientist"
   }
 ];
 
