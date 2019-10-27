@@ -12,7 +12,7 @@ const data = [
     technology: "PHP, Javascript, HTML, CSS, Python"
     country: "Brazil",
     biography: "I am  a jr full-stack dev in formation"
-  }
+  },
   {
     name: "Darpan",
     image:
