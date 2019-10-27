@@ -7,6 +7,13 @@ const data = [
     biography: "I am Full Stack Web Developer"
   },
   {
+    name: "Alandouglas",
+    image: "https://avatars0.githubusercontent.com/u/42749979?s=400&u=43129c15c770f7c6c4e473e2e92b0339052a019b&v=4",
+    technology: "PHP, Javascript, HTML, CSS, Python"
+    country: "Brazil",
+    biography: "I am  a jr full-stack dev in formation"
+  },
+  {
     name: "Darpan",
     image:
       "https://avatars0.githubusercontent.com/u/14301996?s=400&u=71e9200f5037c290c092f01c3ec408e5705e4cca&v=4",
