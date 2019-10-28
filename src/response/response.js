@@ -228,7 +228,16 @@ const data = [
     technology: "HTML, JavaScript, Python",
     country: "Malaysia",
     biography: "Self-taught Data Scientist"
+  },
+
+{
+    name: "Ananda Aguiar",
+    image: "https://github.com/Anandinha",
+    technology: "Java, JavaScript, HTML, CSS",
+    country: "Brasil",
+    biography: "Computer Engineer Student"
   }
+
 ];
 
 export default data;
