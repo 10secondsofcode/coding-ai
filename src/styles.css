@@ -1,122 +1,148 @@
-body {
-    padding: 0;
-    margin: 0 auto !important;
-    width: 100%;
-    font-family: sans-serif;
+:root {
+  --primary-color-1: #484389;
+  --primary-color-2: #6e60cc;
+  --secondary-color-1: #007bff;
+  --tertiary-color-1: #ced4da;
+  --white: #fff;
+  --black: #000;
 }
-@media screen and (max-width: 998px){
-    body{
-     width: 100% !important;
-     overflow-x: hidden;
-    }
- }
+
+body {
+  padding: 0;
+  margin: 0 auto !important;
+  width: 100%;
+  font-family: sans-serif;
+}
+@media screen and (max-width: 998px) {
+  body {
+    width: 100% !important;
+    overflow-x: hidden;
+  }
+
+  .navbar-collapse {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar-nav.mr-auto {
+    margin-right: 0 !important;
+  }
+
+  .navbar-collapse .form-inline {
+    order: 3;
+  }
+}
 .App {
-    text-align: center;
+  text-align: center;
 }
 .App-logo {
-    height: 80px;
+  height: 80px;
 }
 .App-header {
-    padding: 20px;
-    color: white;
+  padding: 20px;
+  color: white;
 }
 .App-title {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 .App-intro {
-    font-size: large;
+  font-size: large;
 }
 @keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
     transform: rotate(360deg);
-    }
+  }
 }
 
 .thememain-header {
-    background: linear-gradient(165deg, #6e60cc, #484389) !important;
-    color: #fff !important;
+  background: linear-gradient(
+    165deg,
+    var(--primary-color-2),
+    var(--primary-color-1)
+  ) !important;
+  color: #fff !important;
 }
 
-.w-100{
-    height: 400px;
+.w-100 {
+  height: 400px;
 }
 
-.login{
-    margin-right: 10px;
-    background-color: none !important;
+.login {
+  margin-right: 10px;
+  background-color: none !important;
 }
 
-.product{
-    background-color: none;
-    width: 300px;
-    height: 450px;
-    margin-top: 50px;
-    border: 1px solid black;
-    padding: 25px;
-    margin: 25px;
+.product {
+  background-color: none;
+  width: 300px;
+  height: 450px;
+  margin-top: 50px;
+  border: 1px solid black;
+  padding: 25px;
+  margin: 25px;
 }
 
-.center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    margin-bottom: 10px;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
 }
 
-.card-img-top{
-    height: 300px;
-    width: 300px;
+.card-img-top {
+  height: 300px;
+  width: 300px;
 }
 
-.input{
-    width: 70% !important;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.input {
+  width: 70% !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.text-center{
-    display: block;
+.text-center {
+  display: block;
 }
 
-.modal-content{
-    background-color: floralwhite !important;
+.modal-content {
+  background-color: var(--tertiary-color-1) !important;
 }
 
-.ErrorMessage{
-    color: rgb(197, 0, 0);
-      font : bold;
-      margin-bottom: 5%;
-      text-align: center;
+.ErrorMessage {
+  color: rgb(197, 0, 0);
+  font: bold;
+  margin-bottom: 5%;
+  text-align: center;
 }
 
-.userName{
-   text-align: center;
-   margin-right: 10px;
+.userName {
+  text-align: center;
+  margin-right: 10px;
 }
 
 .card {
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    /* width: 320px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* width: 320px;
     height: 420px; */
-	position: relative;
-	background: #FFF;
-	color: #758F9B;
-	border-radius: 5px;
-	box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.05);
-	border: none;
-    margin-bottom: 5px;
-    text-align: left;
-    transition: all .25s ease-in-out;
-    min-height: 300px;
+  position: relative;
+  background: #fff;
+  color: #758f9b;
+  border-radius: 5px;
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.05);
+  border: none;
+  margin-bottom: 5px;
+  text-align: left;
+  transition: all 0.25s ease-in-out;
+  min-height: 300px;
 }
 
 .card:hover {
@@ -126,157 +152,177 @@ body {
 }
 
 .card .content-card {
-    padding-top: 10px;
-    margin-bottom: 20px;
-    text-align: center;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
+.card-link {
+  color: black;
+}
+
+.card-link :hover {
+  color: black;
+}
 .card h3 {
-	font-size: 18px;
-	font-weight: bold;
-	margin-bottom: 0px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 0px;
 }
 
 .card p {
-	font-size: 14px;
-	margin-bottom: 0;
+  font-size: 14px;
+  margin-bottom: 0;
 }
 
 .thumbnail {
-    min-height: 150px;
-    min-width: 100%;
-    max-height: 300px;
-    max-width: 100%;
-	background-repeat: no-repeat;
-	background-position: center center;
-    background-attachment: scroll;
-    border-radius: 50%;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+  width: 60%;
 }
 
 .card .tags {
-  margin-bottom: 25px;
+  display: inline-flex;
+  background-color: var(--primary-color-1);
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 3px;
+  padding: 3px 6px;
+  border-radius: 0.6rem;
 }
 
+.card-link .tags :hover {
+  color: white;
+}
 .card .bottom-info {
-	font-size: 14px;
-	width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding-right: 1em;
-    padding-left: 1em;
+  font-size: 14px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1em;
+  padding-left: 1em;
 }
 
-.productList{
-
+.productList {
 }
 
-.productItems{
-    margin:5px;
-    padding: 10px;
-    border: 1px solid #ced4da;
+.productItems {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid var(--tertiary-color-1);
 }
 
-.productDetailsPage{
-    padding-top: 10px;
+.productDetailsPage {
+  padding-top: 10px;
 }
 
-.productDetailsPage .productImage{
-   border: 1px solid #ced4da;
-   margin: 28px;
-   margin-top: 1px;
-   padding-top: 15px;
-   padding-bottom: 15px;
+.productDetailsPage .productImage {
+  border: 1px solid #ced4da;
+  margin: 28px;
+  margin-top: 1px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
-.productDesc h3{
-	float: left;
+.productDesc h3 {
+  float: left;
 }
 
-.productLeftImage{
-    padding:10px;
+.productLeftImage {
+  padding: 10px;
 }
 
-.product-Top{
-    margin-top: 9px;
+.product-Top {
+  margin-top: 9px;
 }
 
-#recording-instructions{
+#recording-instructions {
   text-align: left;
   padding-left: 15px;
 }
 
-.labelBold{
+.labelBold {
   font-weight: bold !important;
 }
 
-#navbarTogglerDemo02 .form-inline{
+#navbarTogglerDemo02 .form-inline {
   padding-right: 15px;
 }
 
-.loginCheck{
-  color:red;
+.loginCheck {
+  color: red;
 }
 
-.logoColor{
+.logoColor {
   color: #bd2130 !important;
   font-weight: bold;
   font-size: 30px !important;
 }
 
-.title{
-    color: white !important;
+.title {
+  color: var(--white) !important;
 }
 
 .navbar {
-    color: white !important;
+  color: var(--white) !important;
 }
 
-.navbar-collapse{
-    color: white !important;
+.navbar-collapse {
+  color: var(--white) !important;
 }
 
-.navbar a{
-    color: white !important;
+.navbar a {
+  color: var(--white) !important;
 }
 
-.whiteColor{
-    color: white !important;
+.whiteColor {
+  color: var(--white) !important;
 }
 
 .loadMore button {
-    background: linear-gradient(165deg, #6e60cc, #484389);
-    color: white;
-    width: 60vh;
-    padding: 20px;
-    margin: 20px auto;
+  background: linear-gradient(
+    165deg,
+    var(--primary-color-2),
+    var(--primary-color-1)
+  );
+  color: var(--white);
+  width: 60vh;
+  padding: 20px;
+  margin: 20px auto;
+  font-weight: 600;
+  border: none;
 }
 
 .heart-container {
-    cursor: pointer;
-    display: flex;
+  cursor: pointer;
+  display: flex;
 }
 
 .heart-container:hover {
-    color: red;
+  color: var(--secondary-color-1);
 }
 
 .heart {
-    font-size: 1rem;
-    margin-right: 5px;
+  font-size: 1rem;
+  margin-right: 5px;
 }
 
 .like-count {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .like-count:hover {
-    color: red;
+  color: var(--secondary-color-1);
 }
 
-.dropdown{
-    margin-bottom: 10px;
+.dropdown {
+  margin-bottom: 10px;
+}
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 1px solid var(--tertiary-color-1);
+  margin-left: -10px;
+  margin-right: -10px;
+  padding: 10px;
 }
