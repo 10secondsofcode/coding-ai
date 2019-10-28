@@ -1,4 +1,4 @@
-const data = [
+﻿const data = [
   {
     name: "Elangovan",
     image: "https://via.placeholder.com/300/",
@@ -228,6 +228,13 @@ const data = [
     technology: "HTML, JavaScript, Python",
     country: "Malaysia",
     biography: "Self-taught Data Scientist"
+  },
+  {
+    name: "Razvan Sofian",
+    image:"https://github.com/Rufusnu",
+    technology: "Python, C++, C#, GDScript",
+    country: "Romania",
+    biography: "I am a full time student at computer science in Cluj, Romania"
   }
 ];
 
