@@ -40,6 +40,7 @@ Follow these steps to make your first pull request:
 | Tamil                | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-ta.md   |
 | Dutch                | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-nl.md   |
 | Hungarian            | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-hu.md   |
+| Malay                | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-ms.md   |
 | Norwegian            | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-no.md   |
 | Thai                 | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-th.md   |
 | Chinese (SIMPLIFIED) | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-zh.md   |
