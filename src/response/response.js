@@ -9,7 +9,7 @@ const data = [
   {
     name: "Alandouglas",
     image: "https://avatars0.githubusercontent.com/u/42749979?s=400&u=43129c15c770f7c6c4e473e2e92b0339052a019b&v=4",
-    technology: "PHP, Javascript, HTML, CSS, Python"
+    technology: "PHP, Javascript, HTML, CSS, Python",
     country: "Brazil",
     biography: "I am  a jr full-stack dev in formation"
   },
@@ -228,6 +228,20 @@ const data = [
     technology: "HTML, JavaScript, Python",
     country: "Malaysia",
     biography: "Self-taught Data Scientist"
+  },
+  {
+    name: "Manjeet Singh",
+    image: "https://avatars2.githubusercontent.com/u/14962072?s=460&v=4",
+    technology: "Python, JavaScript, HTML",
+    country: "India",
+    biography: "Web Developer @cityexploro Technical Scripter @geeksforgeeks Technology Enthusiast and a Sports Programmer."
+  },
+  {
+    name: "Arshad Kazmi",
+    image: "https://avatars2.githubusercontent.com/u/4654382?s=460&v=4",
+    technology: "JavaScript, Python",
+    country: "India",
+    biography: "Let's remove the `lib` directory ➿"
   }
 ];
 
