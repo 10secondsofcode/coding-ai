@@ -7,6 +7,13 @@ const data = [
     biography: "I am Full Stack Web Developer"
   },
   {
+    name: "Alandouglas",
+    image: "https://avatars0.githubusercontent.com/u/42749979?s=400&u=43129c15c770f7c6c4e473e2e92b0339052a019b&v=4",
+    technology: "PHP, Javascript, HTML, CSS, Python"
+    country: "Brazil",
+    biography: "I am  a jr full-stack dev in formation"
+  },
+  {
     name: "Darpan",
     image:
       "https://avatars0.githubusercontent.com/u/14301996?s=400&u=71e9200f5037c290c092f01c3ec408e5705e4cca&v=4",
@@ -59,7 +66,7 @@ const data = [
   {
     name: "Will",
     image: "https://avatars0.githubusercontent.com/u/10842135",
-    technology: "Javascript, Java, ",
+    technology: "Javascript, Java",
     country: "USA",
     biography:
       "I am Sr Project Manager for the largest entertainment company in the world!"
@@ -100,7 +107,7 @@ const data = [
     technology: "Python",
     country: "United Kingdom",
     biography: "I am study my Master in Computer Science"
-  },  
+  },
   {
     name: "Mayank",
     image: "https://avatars1.githubusercontent.com/u/23161291?s=100&v=4",
@@ -195,11 +202,39 @@ const data = [
     biography: "Software development as a career"
   },
   {
+    name: 'Will',
+    image: 'https://avatars0.githubusercontent.com/u/10842135',
+    technology: 'Javascript, Java, ',
+    country: 'USA',
+    biography: 'I am Sr Project Manager for the largest entertainment company in the world!'
+  },
+  {
+    name: 'Leanne Lacey',
+    image: 'https://github.com/Leannelb',
+    technology: 'JavaScript, Angular, HTML, CSS, SASS, NodeJS',  //'Php, Javascript',
+    country: 'Ireland', //india
+    biography: 'I\'m a Developer from green \'ol Ireland. Working mainly with Angular 2'
+  },
+  {
     name: "Waing La Min Lwin",
     image: "https://github.com/archonn",
     technology: "Nodejs, React, Python",
     country: "Myanmar",
     biography: "Software developer focusing on building ML-powered products"
+  },
+  {
+    name: "Rafidah Affendi",
+    image: "https://github.com/r4fidah",
+    technology: "HTML, JavaScript, Python",
+    country: "Malaysia",
+    biography: "Self-taught Data Scientist"
+  },
+  {
+    name: "Celestin Niyonsaba",
+    image: "https://github.com/niyoceles",
+    technology: "Nodejs, React, Python",
+    country: "Rwanda",
+    biography: "I am Full stack software engineer focusing on Web developmenent"
   }
 ];
 
