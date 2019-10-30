@@ -9,10 +9,17 @@ const data = [
   {
     name: "Alandouglas",
     image: "https://avatars0.githubusercontent.com/u/42749979?s=400&u=43129c15c770f7c6c4e473e2e92b0339052a019b&v=4",
+<<<<<<< HEAD
     technology: "PHP, Javascript, HTML, CSS, Python",
     country: "Brazil",
     biography: "I am  a jr full-stack dev in formation"
   },
+=======
+    technology: "PHP, Javascript, HTML, CSS, Python"
+    country: "Brazil",
+    biography: "I am  a jr full-stack dev in formation"
+  }
+>>>>>>> 11f79a8... commiting
   {
     name: "Darpan",
     image:
