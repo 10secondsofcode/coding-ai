@@ -228,6 +228,13 @@ const data = [
     technology: "HTML, JavaScript, Python",
     country: "Malaysia",
     biography: "Self-taught Data Scientist"
+  },
+  {
+    name: "Adarsha Meghanada",
+    image: "https://github.com/adarhp0",
+    technology: "HTML, JavaScript, NodeJS, Python",
+    country: "India",
+    biography: "Full stack Developer"
   }
 ];
 
