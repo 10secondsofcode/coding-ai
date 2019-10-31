@@ -228,6 +228,13 @@ const data = [
     technology: "HTML, JavaScript, Python",
     country: "Malaysia",
     biography: "Self-taught Data Scientist"
+  },
+  {
+  name:"Adarsha",
+  image:"https://avatars0.githubusercontent.com/u/56711129?s=460&v=4",
+  technology:"Html,React,Node,Python",
+    country:"India",
+    biography:"Aspriring full stack developer and python coder"
   }
 ];
 
