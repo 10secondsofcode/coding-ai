@@ -1,12 +1,13 @@
 const data = [
-  { id:1,
+{ 
+    id:1,
     name: "Elangovan",
     image: "https://via.placeholder.com/300/",
     technology: "ReactJs, Javascript",
     country: "India",
     biography: "I am Full Stack Web Developer"
-  },
-  {
+},
+{
     id:2,
     name: "Darpan",
     image:
@@ -55,7 +56,8 @@ const data = [
     country: "Iran",
     biography: "I am a FrontEnd developer"
   },
-  { id:8,
+  { 
+    id:8,
     name: "John",
     image: "https://via.placeholder.com/300/",
     technology: "Php, Javascript",
