@@ -19,7 +19,7 @@ class Mentor extends Component {
   }
 
   products() {
-    console.log("sdsss==>" + JSON.stringify(data));
+    // console.log("sdsss==>" + JSON.stringify(data));
 
     const arr = data.map(mentor =>
       mentor.technology.split(",").map(t => t.trim().toLowerCase())
@@ -123,6 +123,7 @@ class Mentor extends Component {
             <div className="col-md-9">
               <div className="row">
                 {this.state.Product.map(data => {
+                  
                   return <MentorList key={data.id} data={data} />;
                 })}
               </div>

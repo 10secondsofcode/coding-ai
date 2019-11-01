@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Heart from "./Heart";
 import { FaTwitter, FaGithub, FaLinkedinIn } from "react-icons/fa";
+import ReactImageFallback from "react-image-fallback";
+
+import loader from '../assets/loader.gif';
+import mentorImage from '../assets/mentor-default.svg';
 
 class MentorList extends Component {
   render() {
@@ -12,15 +16,16 @@ class MentorList extends Component {
       <div className="col-sm-4 ">
         <div className="card">
           <Link
-            to={{ pathname: "/MentorList", state: { id: data } }}
-            className="card-link"
+            to={{ pathname: `/mentor/profile/${this.props.data.id}`, state: { id: this.props.data } }}
+            className="card"
           >
             <div className="text-center">
-              <img
-                className="img-thumbnail img-fluid rounded-circle thumbnail"
-                src={data.image}
-                alt={data.name}
-              />{" "}
+              <ReactImageFallback
+                src={this.props.data.image}
+                fallbackImage={mentorImage}
+                initialImage={loader}
+                alt={this.props.data.name}
+                className="img-thumbnail img-fluid rounded-circle thumbnail" />
             </div>
 
             <div className="content-card">

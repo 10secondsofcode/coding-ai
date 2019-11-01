@@ -5,6 +5,7 @@ function Heart (props) {
 
     useEffect(() => {
         getLikeCountForMentor(props.name);
+        // eslint-disable-next-line
     }, []);
 
     function getLikeCountForMentor (mentorName) {
