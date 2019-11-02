@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-// import { Route, Link } from "react-router-dom";
-//import logo from "./logo.svg";
 import "./styles.css";
 
 import Header from "./components/Header";
@@ -24,7 +22,6 @@ class App extends Component {
       <div className="App">
         <Header handleSearch={this.search} />
         <Router />
-        {/* <Status /> */}
         <Mentor search={this.state.search} />
       </div>
     );

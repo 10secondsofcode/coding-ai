@@ -15,14 +15,14 @@ class Header extends Component {
   }
 
   showMenu() {
-    const mobileNavState = this.state.menu == true ? false : true;
+    const mobileNavState = this.state.menu === true ? false : true;
     
     this.setState({
       menu: mobileNavState
     });
 
     const navMenu = document.querySelector('.navbar-collapse');
-    if (this.state.menu == true){
+    if (this.state.menu === true){
       navMenu.classList.add('show');
     } else {
       navMenu.classList.remove('show');
