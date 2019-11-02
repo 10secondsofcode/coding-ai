@@ -275,6 +275,14 @@ const data = [
         technology: "HTML, JavaScript, NodeJS, Python",
         country: "India",
         biography: "Full stack Developer"
+    },
+    {
+        id:35,
+        name: "Celestin Niyonsaba",
+        image: "https://github.com/niyoceles",
+        technology: "JavaScript, NodeJS, React, Python",
+        country: "Rwanda",
+        biography: "Full stack Developer"
     }
 ];
 
