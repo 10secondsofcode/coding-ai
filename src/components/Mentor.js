@@ -1,21 +1,43 @@
 import React, { Component } from "react";
 // import Header from "./components/Header";
-import data from "../response/response";
+import { data, getProduct } from "../response/response";
 import MentorList from "../components/MentorList";
 import Filter from "../components/Filter";
 
 class Mentor extends Component {
   constructor(props) {
     super(props);
+    this.updateProduct = this.updateProduct.bind(this);
+
     this.state = {
       Product: [],
-      showProducts: 9,
+      showProducts: 12,
       isLoading: false
     };
   }
 
   componentDidMount() {
+    getProduct({
+      startIndex: 0,
+      getCount: this.state.showProducts,
+      filter: null
+    }, this.updateProduct);
+    
     this.products();
+  }
+
+  get productCount() {
+    return this.state.Product.length;
+  }
+
+  updateProduct(err, data) {
+    this.setState({
+      Product: this.state.Product.concat(data),
+      filter: {
+        technology: null,
+        country: null
+      }
+    });
   }
 
   products() {
@@ -27,15 +49,6 @@ class Mentor extends Component {
     const technologies = [...new Set([].concat.apply([], arr))];
     const countries = [...new Set(data.map(mentor => mentor.country))];
 
-    if (data) {
-      this.setState({
-        Product: data,
-        filter: {
-          technology: null,
-          country: null
-        }
-      });
-    }
     if (technologies.length && countries.length) {
       this.setState({
         filter: {
@@ -58,13 +71,16 @@ class Mentor extends Component {
 
   loadMore = () => {
     this.setState({ isLoading: true });
-    setTimeout(() => {
-      this.setState(prevState => ({
-        isLoading: false,
-        showProducts: prevState.showProducts + 10
-      }));
-    }, 3000);
-    clearTimeout();
+    getProduct({
+      startIndex: this.productCount,
+      getCount: this.state.showProducts,
+      filter: null
+    }, (err, data) => {
+      this.updateProduct(err, data);
+      this.setState({
+        isLoading: false
+      });
+    });
   };
 
   getSearchedProducts() {
