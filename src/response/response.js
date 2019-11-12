@@ -286,4 +286,17 @@ const data = [
     }
 ];
 
+function getProduct({startIndex, getCount, filter}, callback) {
+    let filteredData = data;
+    if (filter) {
+        // TODO: filter array and change filteredData
+    }
+    const result = filteredData.slice(startIndex, startIndex + getCount);
+    callback(false, result);
+    
+    // additional return
+    return result;
+}
+
 export default data;
+export {data, getProduct};
