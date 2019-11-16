@@ -1,8 +1,13 @@
 # Coding-AI 
 Coding-AI helps to find a mentor related your technologies stack. &nbsp; [![Netlify Status](https://api.netlify.com/api/v1/badges/1355ea63-470d-4f37-987e-af334ab16432/deploy-status)](https://app.netlify.com/sites/mentors/deploys)
 
+#Join in slack
 
-# Welcome to HacktoberFest 2019!
+CodingAI members will join the slack to request invite in here
+
+#https://10secondsofcode.slack.com/
+
+ Welcome to HacktoberFest 2019!
 Follow these steps to make your first pull request:
 
 1. Fork this repository.
