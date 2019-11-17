@@ -307,6 +307,12 @@ i{
   border: none;
 }
 
+@media screen and (max-width: 998px) {
+  .loadMore button {
+    margin: 20px 10px;
+  }
+}
+
 .heart-container {
   cursor: pointer;
   display: flex;
