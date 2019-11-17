@@ -145,7 +145,7 @@ class Mentor extends Component {
               </div>
             </div>
           </div>
-          <div className="loadMore">
+          <div className="row loadMore">
             <button onClick={this.loadMore.bind(this)}>
               {isLoading ? "Loading" : "Load More"}
             </button>
