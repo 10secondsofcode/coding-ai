@@ -1,6 +1,10 @@
 # Coding-AI 
 Coding-AI helps to find a mentor related your technologies stack. &nbsp; [![Netlify Status](https://api.netlify.com/api/v1/badges/1355ea63-470d-4f37-987e-af334ab16432/deploy-status)](https://app.netlify.com/sites/mentors/deploys)
 
+
+> Click :star: if you like the project. Pull Request are highly appreciated.
+
+
 # Join in slack
 
 CodingAI members will join the slack to request invite in here
