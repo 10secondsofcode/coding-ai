@@ -12,7 +12,11 @@ class Mentor extends Component {
     this.state = {
       Product: [],
       showProducts: 12,
-      isLoading: false
+      isLoading: false,
+      filter: {
+        technology: null,
+        country: null
+      }
     };
   }
 
@@ -46,16 +50,16 @@ class Mentor extends Component {
     const arr = data.map(mentor =>
       mentor.technology.split(",").map(t => t.trim().toLowerCase())
     );
-    const technologies = [...new Set([].concat.apply([], arr))];
-    const countries = [...new Set(data.map(mentor => mentor.country))];
+    const technologies = [...new Set([].concat.apply([], arr))].sort();
+    const countries = [...new Set(data.map(mentor => mentor.country))].sort();
 
     if (technologies.length && countries.length) {
       this.setState({
         filter: {
-          technology: technologies[0],
-          country: countries[0]
+          technology: 'reactjs', //technologies[0],
+          country: 'India' //countries[0]
         }
-      });
+      }, this.filter);
     }
 
     /*fetch(Data)
@@ -134,12 +138,11 @@ class Mentor extends Component {
           <br />
           <div className="row">
             <div className="col-md-3">
-              <Filter data={data} setFilter={this.setFilter} />
+              <Filter data={data} setFilter={this.setFilter} filter={this.state.filter} />
             </div>
             <div className="col-md-9">
               <div className="row">
-                {this.state.Product.map(data => {
-                  
+                {this.state.Product.sort((a, b) => a.name > b.name).map(data => {
                   return <MentorList key={data.id} data={data} />;
                 })}
               </div>

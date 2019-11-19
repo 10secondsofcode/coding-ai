@@ -10,7 +10,7 @@ import mentorImage from '../assets/mentor-default.svg';
 class MentorList extends Component {
   render() {
     const { data } = this.props;
-    const techs = data.technology.split(",").filter(tech => tech.length !== 0);
+    const techs = data.technology.split(",").filter(tech => tech.length !== 0).sort();
 
     return (
       <div className="col-sm-4 ">
