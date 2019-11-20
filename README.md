@@ -4,12 +4,19 @@ Coding-AI helps to find a mentor related your technologies stack. &nbsp; [![Netl
 
 > Click :star: if you like the project. Pull Request are highly appreciated.
 
-
 # Join in slack
 
 CodingAI members will join the slack to request invite in here
 
 #https://10secondsofcode.slack.com/
+
+# Tech Stack & Features
+
+ * React
+ * React Components
+ * JSX
+ * CSS
+ * Mobile friendly & responsive
 
 # Welcome to CodingAI 2020
 Follow these steps to make your first pull request:
@@ -31,6 +38,7 @@ Follow these steps to make your first pull request:
 6. Star this repository.
 
 7. Congratulations!! You have successfully created your pull request.
+
 
 ## README translations
 
