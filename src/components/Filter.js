@@ -6,16 +6,17 @@ const capitalize = word => {
   }
 };
 
-const Filter = ({ data, setFilter }) => {
+const Filter = ({ data, setFilter, filter }) => {
   const arr = data.map(mentor =>
     mentor.technology.split(',').map(t => t.trim().toLowerCase())
   );
 
   const technologies = [...new Set([].concat.apply([], arr))]
     // remove technologies with empty string
-    .filter(tech => tech.length > 0);
+    .filter(tech => tech.length > 0)
+    .sort();
 
-  const countries = [...new Set(data.map(mentor => mentor.country))];
+  const countries = [...new Set(data.map(mentor => mentor.country))].sort();
 
   return (
     <div className='row col-md-12 filter-row sticky-top mt-5'>
@@ -28,7 +29,7 @@ const Filter = ({ data, setFilter }) => {
           onChange={setFilter}
         >
           {technologies.map((tec, i) => (
-            <option key={i} value={tec} className='dropdown-item'>
+            <option key={i} value={tec} className='dropdown-item' selected={filter.technology === tec}>
               {capitalize(tec)}
             </option>
           ))}
@@ -42,7 +43,7 @@ const Filter = ({ data, setFilter }) => {
           onChange={setFilter}
         >
           {countries.map((country, i) => (
-            <option key={i}>{country}</option>
+            <option key={i} selected={filter.country === country}>{country}</option>
           ))}
         </select>
       </div>
