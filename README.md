@@ -8,7 +8,7 @@ Coding-AI helps to find a mentor related your technologies stack. &nbsp; [![Netl
 
 CodingAI members will join the slack to request invite in here
 
-#https://10secondsofcode.slack.com/
+[Join Slack](https://join.slack.com/t/10secondsofcode/shared_invite/enQtODMzMzEwMjQ0MTQ2LWFhMmVkYzZjNmIyMzAwNmM1MDFlNjY5OTYwMzllNWRmOGUyYzFiZDllMDRlZTZlYjkwMjA2MzNlYzEwMTYyM2I)
 
 # Tech Stack & Features
 
