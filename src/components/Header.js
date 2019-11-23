@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 // import Login from './Login';
 import { Link } from "react-router-dom";
+import LoginContainer from "./LoginContainer";
 
 
 class Header extends Component {
@@ -89,9 +90,9 @@ class Header extends Component {
                   Search
                 </button>
               </form>
-              <Link to="/login">
-                <button className="btn btn-login ml-2 whiteColor">Login</button>
-              </Link>
+
+              <LoginContainer />
+                
             </div>
           </nav>
         </div>
