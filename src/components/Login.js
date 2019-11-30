@@ -33,6 +33,7 @@ class Login extends Component {
     }
     if (email === "10seconds@gmail.com" && password === "test@123") {
       alert("Successful Login !!!");
+      this.props.closeModal();
       return;
     }
     alert("Invalid Credentials !!!");
@@ -58,7 +59,7 @@ class Login extends Component {
                     name="email"
                     onChange={this.handleOnChange}
                   />
-                  <small id="emailHelp" className="form-text text-muted">
+                  <small id="emailHelp" className="form-text">
                     We'll never share your email with anyone else.
                   </small>
                 </div>
@@ -72,7 +73,7 @@ class Login extends Component {
                     name="password"
                     onChange={this.handleOnChange}
                   />
-                  <small id="emailHelp" className="form-text text-muted">
+                  <small id="emailHelp" className="form-text">
                     Minimum password length should be greater than 4.
                   </small>
                 </div>
