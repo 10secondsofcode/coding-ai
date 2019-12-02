@@ -14,6 +14,7 @@ class App extends Component {
   }
 
   search = val => {
+    console.log(val);
     this.setState({ search: val });
   };
 
