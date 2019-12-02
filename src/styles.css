@@ -18,6 +18,21 @@ body {
   background-color : linear-gradient( 165deg, #6e60cc, #484389) !important;
 }
 
+@media screen and (max-width: 767px) {
+  .empty-state {
+    width: 100% !important;
+    margin-top: 2rem !important;
+  }
+
+  .empty-state svg {
+    width: 15rem;
+  }
+
+  .empty-state p {
+    font-size: 26px !important;
+  }
+}
+
 @media screen and (max-width: 998px) {
   body {
     width: 100% !important;
@@ -36,7 +51,12 @@ body {
   .navbar-collapse .form-inline {
     order: 3;
   }
+
+  .loadMore button {
+    margin: 20px 10px;
+  }
 }
+
 i {
   font-size: 4em;
   margin-right: 0.3em;
@@ -294,6 +314,15 @@ i {
   color: var(--white) !important;
 }
 
+.navbar-link {
+  transition: transform 0.4s;
+}
+
+.navbar-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
 .whiteColor {
   color: var(--white) !important;
 }
@@ -310,12 +339,6 @@ i {
   margin: 20px auto;
   font-weight: 600;
   border: none;
-}
-
-@media screen and (max-width: 998px) {
-  .loadMore button {
-    margin: 20px 10px;
-  }
 }
 
 .heart-container {
@@ -367,4 +390,18 @@ i {
 
 .filter-row {
   /* border: 1px solid black; */
+}
+
+.empty-state {
+  width: 70%;
+  margin: 5px auto;
+}
+
+.empty-state p {
+  margin-top: 10px;
+  text-transform: capitalize;
+  font-weight: 100;
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: var(--tertiary-color-1);
 }
