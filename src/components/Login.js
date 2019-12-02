@@ -49,7 +49,7 @@ class Login extends Component {
             <div className="col-12">
               <form onSubmit={this.handleLoginSubmit}>
                 <div className="form-group">
-                  <label for="exampleInputEmail1">Email address</label>
+                  <label htmlFor="exampleInputEmail1">Email address</label>
                   <input
                     type="email"
                     className={`form-control ${emailError ? "is-invalid" : ""}`}
@@ -64,7 +64,7 @@ class Login extends Component {
                   </small>
                 </div>
                 <div className="form-group">
-                  <label for="exampleInputPassword1">Password</label>
+                  <label htmlFor="exampleInputPassword1">Password</label>
                   <input
                     type="password"
                     className="form-control"

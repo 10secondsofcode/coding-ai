@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import { data, getProduct } from "../response/response";
 import MentorList from "../components/MentorList";
 import Filter from "../components/Filter";
+import EmptyState from '../components/Empty';
 
 class Mentor extends Component {
   constructor(props) {
@@ -142,17 +143,17 @@ class Mentor extends Component {
             </div>
             <div className="col-md-9">
               <div className="row">
-                {this.state.Product.sort((a, b) => a.name > b.name).map(data => {
+                {this.state.Product.length ? this.state.Product.sort((a, b) => a.name > b.name).map(data => {
                   return <MentorList key={data.id} data={data} />;
-                })}
+                }) : <EmptyState />}
               </div>
             </div>
           </div>
-          <div className="row loadMore">
-            <button onClick={this.loadMore.bind(this)}>
-              {isLoading ? "Loading" : "Load More"}
-            </button>
-          </div>
+          {!this.state.Product && <div className="row loadMore">
+              <button onClick={this.loadMore.bind(this)}>
+                {isLoading ? "Loading" : "Load More"}
+              </button>
+            </div>}
         </div>
       </div>
     );

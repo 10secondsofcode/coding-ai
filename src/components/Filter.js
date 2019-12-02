@@ -27,9 +27,10 @@ const Filter = ({ data, setFilter, filter }) => {
           className='form-control dropdown'
           name='technology'
           onChange={setFilter}
+          value={filter.technology ? filter.technology : ''}
         >
           {technologies.map((tec, i) => (
-            <option key={i} value={tec} className='dropdown-item' selected={filter.technology === tec}>
+            <option key={i} value={tec} className='dropdown-item'>
               {capitalize(tec)}
             </option>
           ))}
@@ -41,9 +42,10 @@ const Filter = ({ data, setFilter, filter }) => {
           className='form-control dropdown'
           name='country'
           onChange={setFilter}
+          value={filter.country ? filter.country : ''}
         >
           {countries.map((country, i) => (
-            <option key={i} selected={filter.country === country}>{country}</option>
+            <option key={i}>{country}</option>
           ))}
         </select>
       </div>

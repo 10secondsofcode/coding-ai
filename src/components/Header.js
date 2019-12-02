@@ -65,14 +65,14 @@ class Header extends Component {
             <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
               <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li className="nav-item active">
-                  <Link to="/" className="nav-link" href="void" title="Coding-AI"> Home  <span className="sr-only">(current)</span> </Link>
+                  <Link to="/" className="nav-link navbar-link" href="void" title="Coding-AI"> Home  <span className="sr-only">(current)</span> </Link>
                 </li>
                 <li className="nav-item">
-                <Link to="/" className="nav-link" href="void" title="Find a mentor"> Mentors  <span className="sr-only">(current)</span> </Link>
+                <Link to="/" className="nav-link navbar-link" href="void" title="Find a mentor"> Mentors  <span className="sr-only">(current)</span> </Link>
                 
                 </li>
                 <li className="nav-item">
-                <Link to="#" className="nav-link" href="void" title="Find a mentor"> About  <span className="sr-only">(current)</span> </Link>
+                <Link to="#" className="nav-link navbar-link" href="void" title="Find a mentor"> About  <span className="sr-only">(current)</span> </Link>
                   
                 </li>
               </ul>
