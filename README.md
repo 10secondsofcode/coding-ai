@@ -17,6 +17,8 @@ CodingAI members will join the slack to request invite in here
  * JSX
  * CSS
  * Mobile friendly & responsive
+ 
+![10secondsofcode - CodingAI](https://raw.githubusercontent.com/10secondsofcode/coding-ai/master/Coding-Ai.png)
 
 # Welcome to CodingAI 2020
 Follow these steps to make your first pull request:
