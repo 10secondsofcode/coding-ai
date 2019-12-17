@@ -405,3 +405,26 @@ i {
   letter-spacing: 2px;
   color: var(--tertiary-color-1);
 }
+
+@media screen and (min-width: 575px) {
+  .thememain-white {
+  height: 91vh;
+}
+}
+
+.Footer {
+  background-color: #484389;
+  font-size: 1.5rem;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  height: 5vh;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.Footer a {
+  color: white;
+}
+

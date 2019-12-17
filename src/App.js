@@ -4,6 +4,7 @@ import "./styles.css";
 import Header from "./components/Header";
 import Router from "./components/Router";
 import Mentor from "./components/Mentor";
+import Footer from "./components/Footer";
 
 class App extends Component {
   constructor(props) {
@@ -23,6 +24,7 @@ class App extends Component {
         <Header handleSearch={this.search} />
         <Router />
         <Mentor search={this.state.search} />
+        <Footer />
       </div>
     );
   }
