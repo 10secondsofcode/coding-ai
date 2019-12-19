@@ -408,13 +408,15 @@ i {
 
 @media screen and (min-width: 575px) {
   .thememain-white {
-  height: 91vh;
-}
+    
+  }
 }
 
 .Footer {
-  background-color: #484389;
-  font-size: 1.5rem;
+  background-color: #6A5DC6;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 1rem;
   color: #fff;
   display: flex;
   flex-direction: row;
