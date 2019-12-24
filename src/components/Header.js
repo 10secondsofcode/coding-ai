@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import {connect} from 'react-redux';
+import {performSearch} from '../actions/search';
+import {loginUser} from '../actions/user';
 // import Login from './Login';
 import { Link } from "react-router-dom";
 import LoginContainer from "./LoginContainer";
@@ -8,7 +11,6 @@ class Header extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      username: "Hi!",
       search: "",
       menu: true
     };
@@ -30,9 +32,7 @@ class Header extends Component {
     }
   };
 
-  user = val => {
-    this.setState({ username: val });
-  };
+ 
 
   search = event => {
     this.setState({ search: event.target.value });
@@ -40,7 +40,9 @@ class Header extends Component {
 
   submit = event => {
     event.preventDefault();
-    this.props.handleSearch(this.state.search);
+    
+
+    this.props.performSearch(this.state.search);
   };
 
   render() {
@@ -91,7 +93,7 @@ class Header extends Component {
                 </button>
               </form>
 
-              <LoginContainer />
+              <LoginContainer loginUser={this.props.loginUser} user={this.props.user}/>
                 
             </div>
           </nav>
@@ -101,4 +103,14 @@ class Header extends Component {
   }
 }
 
-export default Header;
+//debo de pasar el user para mostrar la informacion 
+//y el action de perform search
+
+const mapDispatchToProps=(dispatch)=>({
+    performSearch:(target)=>dispatch(performSearch(target)),
+    loginUser:(username,password,action)=>dispatch(loginUser(username,password,action))
+  })
+const mapStateToProps=(state)=>({user:state.user});
+
+
+export default connect(mapStateToProps,mapDispatchToProps)(Header);

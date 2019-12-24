@@ -6,8 +6,7 @@ class Login extends Component {
     super();
     this.state = {
       email: "",
-      password: "",
-      emailError: false
+      password: ""
     };
   }
 
@@ -23,24 +22,17 @@ class Login extends Component {
     this.setState({ [evt.target.name]: evt.target.value, emailError: false });
   };
 
+
+  //debe de ir en un action
   handleLoginSubmit = evt => {
     evt.preventDefault();
     const { email, password } = this.state;
-    let re = /^([A-Za-z0-9_\-.+])+@([A-Za-z0-9_\-.])+\.([A-Za-z]{2,})$/;
-    if (!re.test(email)) {
-      this.setState({ emailError: true });
-      return;
-    }
-    if (email === "10seconds@gmail.com" && password === "test@123") {
-      alert("Successful Login !!!");
-      this.props.closeModal();
-      return;
-    }
-    alert("Invalid Credentials !!!");
+    this.props.loginUser(email,password,this.props.closeModal);
+   
   };
 
   render() {
-    let { emailError } = this.state;
+    let { error } = this.props.user;
     return (
       <div className="login-form">
         <div className="row">
@@ -52,7 +44,7 @@ class Login extends Component {
                   <label htmlFor="exampleInputEmail1">Email address</label>
                   <input
                     type="email"
-                    className={`form-control ${emailError ? "is-invalid" : ""}`}
+                    className={`form-control ${error ? "is-invalid" : ""}`}
                     id="exampleInputEmail1"
                     aria-describedby="emailHelp"
                     placeholder="10seconds@gmail.com"

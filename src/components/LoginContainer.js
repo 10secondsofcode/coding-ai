@@ -46,6 +46,8 @@ class LoginContainer extends Component {
                     <div className="modal-body" style={themeBackground}>
                         <Login 
                             closeModal = {this.toggleModal}
+                            user={this.props.user}
+                            loginUser={this.props.loginUser}
                         />
                     </div>
                 </div>
