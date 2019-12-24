@@ -4,6 +4,9 @@ Coding-AI helps to find a mentor related your technologies stack. &nbsp; [![Netl
 
 > Click :star: if you like the project. Pull Request are highly appreciated.
 
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/10secondsofcode/coding-ai.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/10secondsofcode/coding-ai/alerts/) | [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/10secondsofcode/coding-ai.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/10secondsofcode/coding-ai/context:javascript)
+
+
 # Join in slack
 
 CodingAI members will join the slack to request invite in here
