@@ -71,6 +71,8 @@ i {
   max-width: 100%;
   /* height: auto; */
   height: 200px;
+  object-fit: contain;
+  object-position: center;
 }
 .App {
   text-align: center;
