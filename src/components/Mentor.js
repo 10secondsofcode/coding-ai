@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {connect} from 'react-redux';
 // import Header from "./components/Header";
 import { data, getProduct } from "../response/response";
 import MentorList from "../components/MentorList";
@@ -160,4 +161,8 @@ class Mentor extends Component {
   }
 }
 
-export default Mentor;
+const mapStateToProps = (state)=>({
+  search:state.search.target
+})
+
+export default connect(mapStateToProps,null)(Mentor);
