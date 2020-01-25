@@ -54,8 +54,8 @@ Follow these steps to make your first pull request:
 | Peruvian Spanish     | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-es.md   |
 | Arabic               | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-ar.md   |
 | Korean               | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-kr.md   |
-| Swedish              | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translation/README-swe.md   |
-| Danish               | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translation/README-dk.md    |
+| Swedish              | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-swe.md  |
+| Danish               | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-dk.md   |
 | Tamil                | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-ta.md   |
 | Dutch                | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-nl.md   |
 | Hungarian            | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-hu.md   |
@@ -64,3 +64,5 @@ Follow these steps to make your first pull request:
 | Thai                 | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-th.md   |
 | Chinese (SIMPLIFIED) | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-zh.md   |
 | Russian              | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-ru.md   |
+| Bengali              | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-bn.md   |
+
