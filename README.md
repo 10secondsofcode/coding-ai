@@ -1,10 +1,11 @@
-कोडिंग एआई
+<mark>कोडिंग एआई</mark>
 
 कोडिंग-एआई आपको अपनी तकनीक के ढेर के साथ करने के लिए एक संरक्षक खोजने में मदद करता है। Netlify Status
 
 ![alt text](https://api.netlify.com/api/v1/badges/1355ea63-470d-4f37-987e-af334ab16432/deploy-status)](https://app.netlify.com/sites/mentors/deploys)
 
-हैक्टोबरफेस्ट 2019 में आपका स्वागत है!
+<mark>हैक्टोबरफेस्ट 2019 में आपका स्वागत है!</mark>
+
 अपना पहला पुल अनुरोध करने के लिए इन चरणों का पालन करें:
 
 इस भंडार कांटा
@@ -15,9 +16,9 @@
 
 इन आदेशों को अपने कमांड प्रॉम्प्ट (,, आदि) में लिखें:CMDTerminalGit-Bash
 
-git add -A
-git commit -m "dein Name"
-git push origin master
+>git add -A
+>git commit -m "dein Name"
+>git push origin master
 
 फिर अपना पुल अनुरोध (पीआर) बनाएं।
 
