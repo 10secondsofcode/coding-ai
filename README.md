@@ -1,29 +1,39 @@
-<mark>कोडिंग एआई</mark>
+#कोडिंग एआई
 
 कोडिंग-एआई आपको अपनी तकनीक के ढेर के साथ करने के लिए एक संरक्षक खोजने में मदद करता है। Netlify Status
 
-![alt text](https://api.netlify.com/api/v1/badges/1355ea63-470d-4f37-987e-af334ab16432/deploy-status)](https://app.netlify.com/sites/mentors/deploys)
+![alt text](https://api.netlify.com/api/v1/badges/1355ea63-470d-4f37-987e-af334ab16432/deploy-status)
 
-<mark>हैक्टोबरफेस्ट 2019 में आपका स्वागत है!</mark>
+#हैक्टोबरफेस्ट 2019 में आपका स्वागत है!
 
 अपना पहला पुल अनुरोध करने के लिए इन चरणों का पालन करें:
 
 इस भंडार कांटा
 
+
 अपने स्थानीय कंप्यूटर के लिए अपने कांटा भंडार क्लोन।
+
 
 समस्या सूची () से एक समस्या () का पता लगाएं और अपना पुल अनुरोध (पीआर) बनाएं।issueIssues
 
+
 इन आदेशों को अपने कमांड प्रॉम्प्ट (,, आदि) में लिखें:CMDTerminalGit-Bash
 
+
 >git add -A
->git commit -m "dein Name"
->git push origin master
+
+git commit -m "dein Name"
+
+git push origin master
+
 
 फिर अपना पुल अनुरोध (पीआर) बनाएं।
 
+
 इस भंडार को तारक दें।
 
+
 बधाइयाँ! आपने सफलतापूर्वक अपना पुल अनुरोध बनाया है।
+
 
 यहां अपनी प्रगति की जांच करें और अपनी टी शर्ट के लिए प्रतीक्षा करें!
