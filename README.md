@@ -1,10 +1,10 @@
-#कोडिंग एआई
+**कोडिंग एआई**
 
 कोडिंग-एआई आपको अपनी तकनीक के ढेर के साथ करने के लिए एक संरक्षक खोजने में मदद करता है। Netlify Status
 
 ![alt text](https://api.netlify.com/api/v1/badges/1355ea63-470d-4f37-987e-af334ab16432/deploy-status)
 
-#हैक्टोबरफेस्ट 2019 में आपका स्वागत है!
+**हैक्टोबरफेस्ट 2019 में आपका स्वागत है!**
 
 अपना पहला पुल अनुरोध करने के लिए इन चरणों का पालन करें:
 
@@ -22,9 +22,9 @@
 
 >git add -A
 
-git commit -m "dein Name"
+>git commit -m "dein Name"
 
-git push origin master
+>git push origin master
 
 
 फिर अपना पुल अनुरोध (पीआर) बनाएं।
