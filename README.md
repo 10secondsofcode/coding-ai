@@ -1,68 +1,39 @@
-# Coding-AI 
-Coding-AI helps to find a mentor related your technologies stack. &nbsp; [![Netlify Status](https://api.netlify.com/api/v1/badges/1355ea63-470d-4f37-987e-af334ab16432/deploy-status)](https://app.netlify.com/sites/mentors/deploys)
+**कोडिंग एआई**
+
+कोडिंग-एआई आपको अपनी तकनीक के ढेर के साथ करने के लिए एक संरक्षक खोजने में मदद करता है। Netlify Status
+
+![alt text](https://api.netlify.com/api/v1/badges/1355ea63-470d-4f37-987e-af334ab16432/deploy-status)
+
+**हैक्टोबरफेस्ट 2019 में आपका स्वागत है!**
+
+अपना पहला पुल अनुरोध करने के लिए इन चरणों का पालन करें:
+
+इस भंडार कांटा
 
 
-> Click :star: if you like the project. Pull Request are highly appreciated.
-
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/10secondsofcode/coding-ai.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/10secondsofcode/coding-ai/alerts/) | [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/10secondsofcode/coding-ai.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/10secondsofcode/coding-ai/context:javascript)
+अपने स्थानीय कंप्यूटर के लिए अपने कांटा भंडार क्लोन।
 
 
-# Join in slack
-
-CodingAI members will join the slack to request invite in here
-
-[Join Slack](https://join.slack.com/t/10secondsofcode/shared_invite/enQtODMzMzEwMjQ0MTQ2LWFhMmVkYzZjNmIyMzAwNmM1MDFlNjY5OTYwMzllNWRmOGUyYzFiZDllMDRlZTZlYjkwMjA2MzNlYzEwMTYyM2I)
-
-# Tech Stack & Features
-
- * React
- * React Components
- * JSX
- * CSS
- * Mobile friendly & responsive
- 
-![10secondsofcode - CodingAI](https://raw.githubusercontent.com/10secondsofcode/coding-ai/master/Coding-Ai.png)
-
-# Welcome to CodingAI 2020
-Follow these steps to make your first pull request:
-
-1. Fork this repository.
-
-2. Clone your forked repository to your local machine.
-
-3. Take any issue from issues list and create the PR.
-
-4. Write these commands on your terminal:
-    ```
-    git add -A
-    git commit -m "your name"
-    git push origin master
-    ```
-5. Then create your pull request.
-
-6. Star this repository.
-
-7. Congratulations!! You have successfully created your pull request.
+समस्या सूची () से एक समस्या () का पता लगाएं और अपना पुल अनुरोध (पीआर) बनाएं।issueIssues
 
 
-## README translations
+इन आदेशों को अपने कमांड प्रॉम्प्ट (,, आदि) में लिखें:CMDTerminalGit-Bash
 
-| *LANGUAGE*           | *LINK*                                                                                      |
-|----------------------|---------------------------------------------------------------------------------------------|
-| Brazilian Portuguese | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-ptbr.md |
-| German               | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-de.md   |
-| Peruvian Spanish     | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-es.md   |
-| Arabic               | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-ar.md   |
-| Korean               | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-kr.md   |
-| Swedish              | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-swe.md  |
-| Danish               | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-dk.md   |
-| Tamil                | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-ta.md   |
-| Dutch                | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-nl.md   |
-| Hungarian            | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-hu.md   |
-| Malay                | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-ms.md   |
-| Norwegian            | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-no.md   |
-| Thai                 | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-th.md   |
-| Chinese (SIMPLIFIED) | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-zh.md   |
-| Russian              | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-ru.md   |
-| Bengali              | https://github.com/10secondsofcode/coding-ai/blob/master/readme-translations/README-bn.md   |
 
+>git add -A
+
+>git commit -m "dein Name"
+
+>git push origin master
+
+
+फिर अपना पुल अनुरोध (पीआर) बनाएं।
+
+
+इस भंडार को तारक दें।
+
+
+बधाइयाँ! आपने सफलतापूर्वक अपना पुल अनुरोध बनाया है।
+
+
+यहां अपनी प्रगति की जांच करें और अपनी टी शर्ट के लिए प्रतीक्षा करें!
