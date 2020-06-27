@@ -1,21 +1,48 @@
 import React, { Component } from "react";
 // import Header from "./components/Header";
-import data from "../response/response";
+import { data, getProduct } from "../response/response";
 import MentorList from "../components/MentorList";
 import Filter from "../components/Filter";
+import EmptyState from '../components/Empty';
 
 class Mentor extends Component {
   constructor(props) {
     super(props);
+    this.updateProduct = this.updateProduct.bind(this);
+
     this.state = {
       Product: [],
-      showProducts: 9,
-      isLoading: false
+      showProducts: 12,
+      isLoading: false,
+      filter: {
+        technology: null,
+        country: null
+      }
     };
   }
 
   componentDidMount() {
+    getProduct({
+      startIndex: 0,
+      getCount: this.state.showProducts,
+      filter: null
+    }, this.updateProduct);
+    
     this.products();
+  }
+
+  get productCount() {
+    return this.state.Product.length;
+  }
+
+  updateProduct(err, data) {
+    this.setState({
+      Product: this.state.Product.concat(data),
+      filter: {
+        technology: null,
+        country: null
+      }
+    });
   }
 
   products() {
@@ -24,25 +51,16 @@ class Mentor extends Component {
     const arr = data.map(mentor =>
       mentor.technology.split(",").map(t => t.trim().toLowerCase())
     );
-    const technologies = [...new Set([].concat.apply([], arr))];
-    const countries = [...new Set(data.map(mentor => mentor.country))];
+    const technologies = [...new Set([].concat.apply([], arr))].sort();
+    const countries = [...new Set(data.map(mentor => mentor.country))].sort();
 
-    if (data) {
-      this.setState({
-        Product: data,
-        filter: {
-          technology: null,
-          country: null
-        }
-      });
-    }
     if (technologies.length && countries.length) {
       this.setState({
         filter: {
-          technology: technologies[0],
-          country: countries[0]
+          technology: 'reactjs', //technologies[0],
+          country: 'India' //countries[0]
         }
-      });
+      }, this.filter);
     }
 
     /*fetch(Data)
@@ -58,13 +76,16 @@ class Mentor extends Component {
 
   loadMore = () => {
     this.setState({ isLoading: true });
-    setTimeout(() => {
-      this.setState(prevState => ({
-        isLoading: false,
-        showProducts: prevState.showProducts + 10
-      }));
-    }, 3000);
-    clearTimeout();
+    getProduct({
+      startIndex: this.productCount,
+      getCount: this.state.showProducts,
+      filter: null
+    }, (err, data) => {
+      this.updateProduct(err, data);
+      this.setState({
+        isLoading: false
+      });
+    });
   };
 
   getSearchedProducts() {
@@ -118,22 +139,21 @@ class Mentor extends Component {
           <br />
           <div className="row">
             <div className="col-md-3">
-              <Filter data={data} setFilter={this.setFilter} />
+              <Filter data={data} setFilter={this.setFilter} filter={this.state.filter} />
             </div>
             <div className="col-md-9">
               <div className="row">
-                {this.state.Product.map(data => {
-                  
+                {this.state.Product.length ? this.state.Product.sort((a, b) => a.name > b.name).map(data => {
                   return <MentorList key={data.id} data={data} />;
-                })}
+                }) : <EmptyState />}
               </div>
             </div>
           </div>
-          <div className="loadMore">
-            <button onClick={this.loadMore.bind(this)}>
-              {isLoading ? "Loading" : "Load More"}
-            </button>
-          </div>
+          {!this.state.Product && <div className="row loadMore">
+              <button onClick={this.loadMore.bind(this)}>
+                {isLoading ? "Loading" : "Load More"}
+              </button>
+            </div>}
         </div>
       </div>
     );

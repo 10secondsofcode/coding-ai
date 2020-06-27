@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^4.5.0",
     "devicon": "^2.2.0",
     "font-mfizz": "^2.4.1",
     "react": "^16.6.0",
     "react-blink-text": "^1.0.3",
-    "react-dom": "^16.6.0",
-    "react-icons": "^3.7.0",
+    "react-dom": "^16.13.0",
+    "react-icons": "^3.9.0",
     "react-image-fallback": "^8.0.0",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "^3.2.0"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.3.1"
   },
   "scripts": {
     "start": "react-scripts start",

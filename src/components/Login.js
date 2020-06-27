@@ -33,6 +33,7 @@ class Login extends Component {
     }
     if (email === "10seconds@gmail.com" && password === "test@123") {
       alert("Successful Login !!!");
+      this.props.closeModal();
       return;
     }
     alert("Invalid Credentials !!!");
@@ -48,7 +49,7 @@ class Login extends Component {
             <div className="col-12">
               <form onSubmit={this.handleLoginSubmit}>
                 <div className="form-group">
-                  <label for="exampleInputEmail1">Email address</label>
+                  <label htmlFor="exampleInputEmail1">Email address</label>
                   <input
                     type="email"
                     className={`form-control ${emailError ? "is-invalid" : ""}`}
@@ -58,12 +59,12 @@ class Login extends Component {
                     name="email"
                     onChange={this.handleOnChange}
                   />
-                  <small id="emailHelp" className="form-text text-muted">
+                  <small id="emailHelp" className="form-text">
                     We'll never share your email with anyone else.
                   </small>
                 </div>
                 <div className="form-group">
-                  <label for="exampleInputPassword1">Password</label>
+                  <label htmlFor="exampleInputPassword1">Password</label>
                   <input
                     type="password"
                     className="form-control"
@@ -72,7 +73,7 @@ class Login extends Component {
                     name="password"
                     onChange={this.handleOnChange}
                   />
-                  <small id="emailHelp" className="form-text text-muted">
+                  <small id="emailHelp" className="form-text">
                     Minimum password length should be greater than 4.
                   </small>
                 </div>

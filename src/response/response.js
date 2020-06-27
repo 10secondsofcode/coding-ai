@@ -2,7 +2,7 @@ const data = [
     {
         id: 1,
         name: "Elangovan",
-        image: "https://via.placeholder.com/300/",
+        image: "",
         technology: "ReactJs, Javascript",
         country: "India",
         biography: "I am Full Stack Web Developer"
@@ -43,7 +43,7 @@ const data = [
     {
         id: 6,
         name: "Krish",
-        image: "https://via.placeholder.com/300/",
+        image: "",
         technology: "Java, ReactJs, Javascript",
         country: "United States",
         biography: "I am Full Stack Web Developer"
@@ -110,7 +110,7 @@ const data = [
     {
         id: 14,
         name: "Saliban",
-        image: "https://via.placeholder.com/300/",
+        image: "",
         technology: "Javascript,React.js",
         country: "Iran",
         biography: "I am a FrontEnd developer"
@@ -118,7 +118,7 @@ const data = [
     {
         id: 15,
         name: "John",
-        image: "https://via.placeholder.com/300/",
+        image: "",
         technology: "Php, Javascript",
         country: "India",
         biography: "I am Full Stack Web Developer"
@@ -142,7 +142,7 @@ const data = [
     {
         id: 18,
         name: "Naresh",
-        image: "https://via.placeholder.com/300/",
+        image: "",
         technology: "AngularJS, Javascript",
         country: "India",
         biography: "I am Full Stack Web Developer"
@@ -150,7 +150,7 @@ const data = [
     {
         id: 19,
         name: "Abdul",
-        image: "https://via.placeholder.com/300/",
+        image: "",
         technology: "Angularjs, Python",
         country: "India",
         biography: "I am Full Stack Web Developer"
@@ -275,7 +275,28 @@ const data = [
         technology: "HTML, JavaScript, NodeJS, Python",
         country: "India",
         biography: "Full stack Developer"
+    },
+    {
+        id:35,
+        name: "Celestin Niyonsaba",
+        image: "https://github.com/niyoceles",
+        technology: "JavaScript, NodeJS, React, Python",
+        country: "Rwanda",
+        biography: "Full stack Developer"
     }
 ];
 
+function getProduct({startIndex, getCount, filter}, callback) {
+    let filteredData = data;
+    if (filter) {
+        // TODO: filter array and change filteredData
+    }
+    const result = filteredData.slice(startIndex, startIndex + getCount);
+    callback(false, result);
+    
+    // additional return
+    return result;
+}
+
 export default data;
+export {data, getProduct};

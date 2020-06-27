@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 //import logo from "./logo.svg";
 
 import Home from "../components/Home";
@@ -10,12 +10,12 @@ import Topic from "../components/Topic";
 class Router extends Component {
   render() {
     return (
-      <switch>
+      <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/about" exact component={About} />
         <Route path="/topics" exact component={Topics} />
         <Route path="/topics/:Id" exact component={Topic} />
-      </switch>
+      </Switch>
     );
   }
 }
