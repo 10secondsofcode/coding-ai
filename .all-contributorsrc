@@ -1,16 +1,24 @@
 {
-  "files": ["README.md"],
+  "projectName": "coding-ai",
+  "projectOwner": "10secondsofcode",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
   "imageSize": 100,
-  "contributorsPerLine": 7,
-  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg?style=flat-square)](#contributors)",
-  "contributorTemplate": "<%= avatarBlock %><br /><%= contributions %>",
-  "types": {
-    "custom": {
-      "symbol": "🔭",
-      "description": "A custom contribution type.",
-      "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "elangosundar",
+      "name": "Elangovan",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6679438?v=4",
+      "profile": "https://github.com/elangosundar",
+      "contributions": [
+        "code"
+      ]
     }
-  },
-  "skipCi": "true",
-  "contributors": []
+  ],
+  "contributorsPerLine": 7
 }
