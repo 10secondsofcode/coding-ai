@@ -468,6 +468,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "drunkedMonkey",
+      "name": "Jose Ibanez",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/23294021?v=4",
+      "profile": "https://github.com/drunkedMonkey",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7
