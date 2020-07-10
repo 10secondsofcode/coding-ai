@@ -243,6 +243,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "asfo",
+      "name": "Asfo Zavala",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/829964?v=4",
+      "profile": "https://asfo.dev/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7
