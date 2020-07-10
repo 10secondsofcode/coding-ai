@@ -81,6 +81,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "nickjlee",
+      "name": "Nick Lee",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/16159706?v=4",
+      "profile": "https://github.com/nickjlee",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7
