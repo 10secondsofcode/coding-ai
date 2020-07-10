@@ -1,6 +1,6 @@
 # Coding-AI 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-38-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-39-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Coding-AI helps to find a mentor related your technologies stack. &nbsp; [![Netlify Status](https://api.netlify.com/api/v1/badges/1355ea63-470d-4f37-987e-af334ab16432/deploy-status)](https://app.netlify.com/sites/mentors/deploys)
 
@@ -127,6 +127,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Joelgiovanni"><img src="https://avatars0.githubusercontent.com/u/35950568?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Joel Godoy</b></sub></a><br /><a href="https://github.com/10secondsofcode/coding-ai/commits?author=Joelgiovanni" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/lucas-azambuja"><img src="https://avatars3.githubusercontent.com/u/505298?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lucas Azambuja</b></sub></a><br /><a href="https://github.com/10secondsofcode/coding-ai/commits?author=lucas-azambuja" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/mahval"><img src="https://avatars0.githubusercontent.com/u/19277989?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Marianne Hval</b></sub></a><br /><a href="https://github.com/10secondsofcode/coding-ai/commits?author=mahval" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Squizzi3"><img src="https://avatars2.githubusercontent.com/u/54278753?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Martin Gnodtke</b></sub></a><br /><a href="https://github.com/10secondsofcode/coding-ai/commits?author=Squizzi3" title="Code">💻</a></td>
   </tr>
 </table>
 
