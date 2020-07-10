@@ -63,6 +63,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "ethanmassie",
+      "name": "Ethan Massie",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/21372584?v=4",
+      "profile": "https://emassie.dev/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7
