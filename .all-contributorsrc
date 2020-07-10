@@ -6,7 +6,7 @@
   "files": [
     "README.md"
   ],
-  "imageSize": 100,
+  "imageSize": 75,
   "commit": true,
   "commitConvention": "none",
   "contributors": [
@@ -16,6 +16,7 @@
       "avatar_url": "https://avatars1.githubusercontent.com/u/6679438?v=4",
       "profile": "https://github.com/elangosundar",
       "contributions": [
+        "ideas",
         "code"
       ]
     },

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "all-contributors-cli": "^6.16.1",
     "bootstrap": "^4.5.0",
     "devicon": "^2.2.0",
     "font-mfizz": "^2.4.1",
