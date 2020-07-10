@@ -1,6 +1,6 @@
 # Coding-AI 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-46-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-47-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Coding-AI helps to find a mentor related your technologies stack. &nbsp; [![Netlify Status](https://api.netlify.com/api/v1/badges/1355ea63-470d-4f37-987e-af334ab16432/deploy-status)](https://app.netlify.com/sites/mentors/deploys)
 
@@ -137,6 +137,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/chongniki"><img src="https://avatars0.githubusercontent.com/u/40714048?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ni Ki Chong</b></sub></a><br /><a href="https://github.com/10secondsofcode/coding-ai/commits?author=chongniki" title="Code">💻</a></td>
     <td align="center"><a href="https://paucaro.github.io/"><img src="https://avatars3.githubusercontent.com/u/14001107?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Paula Asto</b></sub></a><br /><a href="https://github.com/10secondsofcode/coding-ai/commits?author=paucaro" title="Code">💻</a></td>
     <td align="center"><a href="https://p-siriphanthong.github.io/"><img src="https://avatars2.githubusercontent.com/u/29949429?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Punn Siriphanthong</b></sub></a><br /><a href="https://github.com/10secondsofcode/coding-ai/commits?author=p-siriphanthong" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/sf3ris"><img src="https://avatars2.githubusercontent.com/u/22035831?v=4?s=100" width="100px;" alt=""/><br /><sub><b>sf3ris</b></sub></a><br /><a href="https://github.com/10secondsofcode/coding-ai/commits?author=sf3ris" title="Code">💻</a></td>
   </tr>
 </table>
 
