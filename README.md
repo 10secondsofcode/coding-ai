@@ -9,14 +9,12 @@
 <a href="https://github.com/10secondsofcode/coding-ai/blob/master/LICENSE"><img src="https://img.shields.io/github/license/10secondsofcode/coding-ai?color=2b9348" alt="License Badge"/></a>
 </div>
 <br>
-<p align="center"><i>Loved the project? Please visit our <a href="https://https://mentors.10secondsofcode.com">Website</a></i></p>
-<br>
-If you like this project, Please click the :star: and Pull Request are highly appreciated.
+<p align="center"><i>Loved the project? Please visit our <a href="https://https://mentors.10secondsofcode.com">Website</a></i></p> 
 
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-60-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-Coding-AI helps to find a mentor related your technologies stack. &nbsp; [![Netlify Status](https://api.netlify.com/api/v1/badges/1355ea63-470d-4f37-987e-af334ab16432/deploy-status)](https://app.netlify.com/sites/mentors/deploys)
+<br>
+If you like this project, Please click the :star: and Pull Request are highly appreciated. 
+
+&nbsp; [![Netlify Status](https://api.netlify.com/api/v1/badges/1355ea63-470d-4f37-987e-af334ab16432/deploy-status)](https://app.netlify.com/sites/mentors/deploys)
 
 # Tech Stack & Features
 
