@@ -7,45 +7,14 @@ Coding-AI helps to find a mentor related your technologies stack. &nbsp; [![Netl
 
 > Click :star: if you like the project. Pull Request are highly appreciated.
 
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/10secondsofcode/coding-ai.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/10secondsofcode/coding-ai/alerts/) | [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/10secondsofcode/coding-ai.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/10secondsofcode/coding-ai/context:javascript)
-
-
-# Join in slack
-
-CodingAI members will join the slack to request invite in here
-
-[Join Slack](https://join.slack.com/t/10secondsofcode/shared_invite/enQtODMzMzEwMjQ0MTQ2LWFhMmVkYzZjNmIyMzAwNmM1MDFlNjY5OTYwMzllNWRmOGUyYzFiZDllMDRlZTZlYjkwMjA2MzNlYzEwMTYyM2I)
-
 # Tech Stack & Features
 
  * React
- * React Components
- * JSX
+ * Redux
  * CSS
  * Mobile friendly & responsive
  
 ![10secondsofcode - CodingAI](https://raw.githubusercontent.com/10secondsofcode/coding-ai/master/Coding-Ai.png)
-
-# Welcome to CodingAI 2020
-Follow these steps to make your first pull request:
-
-1. Fork this repository.
-
-2. Clone your forked repository to your local machine.
-
-3. Take any issue from issues list and create the PR.
-
-4. Write these commands on your terminal:
-    ```
-    git add -A
-    git commit -m "your name"
-    git push origin master
-    ```
-5. Then create your pull request.
-
-6. Star this repository.
-
-7. Congratulations!! You have successfully created your pull request.
 
 
 ## README translations
